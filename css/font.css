@@ -1,0 +1,14 @@
+@font-face {
+font-family: 'basictitlefont';
+font-style: normal;
+font-weight: bold;
+src: url('../font/basictitlefont.ttf') format('truetype');
+}
+
+
+@font-face {
+font-family: 'Hind-Light';
+font-style: normal;
+font-weight: normal;
+src: url('../font/Hind-Light.ttf') format('truetype');
+}

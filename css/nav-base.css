@@ -1,0 +1,57 @@
+/* Base styles that apply to all menus */
+
+@media(min-width:30em) {
+/* nav-bar*/
+.single-nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+}
+
+
+.single-nav a{
+  text-decoration: none;
+}
+
+
+.menu-section {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+
+.menu li a:hover {
+color: #8794A7;
+border-radius: 0.25em;
+/*-webkit-transition: color 1.3s;*/
+transition: color 0.5s linear;
+}
+
+
+/* nav-button*/
+
+.button{
+	text-decoration: none;
+	color: #0C3C60;
+}
+
+.button:hover{
+		color: #6EA4CA;
+	transition: color 0.25s linear;
+
+}

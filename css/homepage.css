@@ -1,0 +1,194 @@
+
+/*landingimg//////////////*/
+
+.name-image{
+  flex-grow: 3;
+  margin-top: 0rem;
+}
+
+
+.nametitle {
+  margin-top: 28rem;
+  font-family: "basictitlefont", sans-serif;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.nametitle span {
+	font-weight: 300;
+	display: block;
+	font-size: .9em;
+}
+
+
+
+
+#landing{
+  height: 50rem;
+  width: 100%;
+  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/titleimage.jpg");
+  background-size: cover;
+  display: table;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+  @media (min-width: 60rem) {
+.landing-img{
+		height: 100vh;
+		padding-top: 5rem;
+	}
+}
+
+
+
+  /*button///////////*/
+
+  @media (min-width: 60rem) {
+
+.button2 {
+  	display: inline-block;
+  	font-size: 1.15rem;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	border-width: 2px;
+  	border-style: solid;
+  	padding: .5em 1.75em;
+    color: #0C3C60;
+  }
+
+  #project .button2{
+    margin-top: 2rem;
+  }
+
+  .button2:hover{
+  		color: #6EA4CA;
+  	transition: color 0.25s linear;
+
+  }
+}
+
+.button2-accent{
+  	color: #00ff6c;
+  	border-color: #00ff6c;
+  }
+
+.button2-accent:hover,
+.button2-accent:focus {
+  	background: #00ff6c;
+  	color: #232323;
+  }
+
+
+
+
+
+  /*///////////porject///////////*/
+
+
+  #project{
+    height: 45rem;
+    width: 100%;
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud4.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    }
+
+
+    #project h1{
+      font-family: "basictitlefont", sans-serif;
+      color: black;
+      font-size: 30px;
+      text-align: center;
+      margin: 0px;
+      display: table-cell;
+      vertical-align: middle;
+
+    }
+
+
+    .gallery {
+    margin: 0;
+    position: relative;
+
+
+    }
+    .gallery img{
+    	display: block;
+      width:100%;
+    }
+
+    .project-cap{
+    	position: absolute;
+    	z-index: 100;
+    	bottom: 0.2em;
+    	left: 0em;
+    	right: 0em;
+    	color: white;
+    	background: rgba(0,0,0,.6);
+    	padding-bottom: 3em;
+
+    }
+
+
+
+
+
+      @media (min-width: 60rem) {
+      	.gallery {
+      		width: 33.3333334%;
+      		overflow: hidden;
+      	}
+
+      	.project-cap {
+      		transform: translateY(150%);
+      	}
+
+      	.gallery:hover .project-cap {
+      		transform: translateY(0%);
+      	}
+      }
+
+
+.item{
+  max-width: 20rem;
+
+
+}
+
+    @media (min-width: 37rem) {
+      .gallery {
+        width: 50%;
+        float: left;
+      }
+    }
+
+
+/*///////////about///////////*/
+
+
+#about{
+  height: 45rem;
+  width: 100%;
+  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#about h1{
+      font-family: "basictitlefont", sans-serif;
+      color: black;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 8rem;
+      padding-bottom: 2rem;
+
+    }
+
+    #about p{
+    text-align: left;
+    }

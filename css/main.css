@@ -1,0 +1,146 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+
+*{
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+
+body {
+  font-family: sans-serif;
+  /*padding: 2rem;*/
+  background-color: #BAD4E8;
+
+  margin:0;
+  text-align: center;
+
+
+}
+
+
+
+
+.title-text{
+  font-family: "basictitlefont", sans-serif;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.p-text{
+  font-family: "HindSiliguri-Light", sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+
+
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+
+  padding: 4em 0.75em;
+  margin-top: 1em;
+}
+
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content:center;
+}
+
+.flex-item1 {
+  background: white;
+  border: 0.01px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+
+
+}
+
+.flex-item2 {
+  background: #BAD4E8;
+  border: 0.2px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+
+.flex-item5 {
+  background: #8794A7;
+  border: 0.01px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.flex-item4 {
+  background: #0C3C60;;
+  border: 0.01px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+
+.flex-item3 {
+  background: #6EA4CA;
+  border: 0.01px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
