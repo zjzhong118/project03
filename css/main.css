@@ -17,10 +17,15 @@ body {
   margin:0;
   text-align: center;
 
-
 }
 
 
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
 
 
 .title-text{
