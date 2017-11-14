@@ -3,11 +3,12 @@
 
 
 .nametitle {
-  margin-top: 28rem;
+  margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
   color: white;
   font-size: 35px;
-  text-align: center;
+  margin-right: 5rem;
+  text-align: right;
 }
 
 .nametitle span {
@@ -19,7 +20,7 @@
 
 
 
-#landing{
+.landing{
   height: 50rem;
   width: 100%;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/titleimage%20copy.jpg");
@@ -27,7 +28,10 @@
   display: table;
   background-position: center;
   background-attachment: fixed;
-
+}
+.landing a{
+  margin-top: 1rem;
+  margin-right: 6rem;
 }
 
 
@@ -49,15 +53,22 @@
   	font-size: 1.15rem;
   	text-decoration: none;
   	text-transform: uppercase;
+    background-color: white;
+     opacity: 0.6;
   	border-width: 2px;
+    border-radius: 15px;
   	border-style: solid;
   	padding: .5em 1.75em;
     color: #0C3C60;
+    margin-left: 50rem;
   }
 
   #project .button2{
     margin-top: 2rem;
+    text-align: right;
+
   }
+
 
   .button2:hover{
   		color: #6EA4CA;
