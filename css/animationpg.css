@@ -19,7 +19,7 @@
 
 
 .moodboard-container{
-  height: 160rem;
+  height: 171rem;
   width: 100%;
   background-color: #181f24;
   background-size: cover;
@@ -29,12 +29,13 @@
 
 
   .postpro-container{
-    height: 45rem;
+    height: 200rem;
     width: 100%;
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/post-wall.jpg");
     background-size: cover;
     display: table;
     background-attachment: fixed;
+  padding-top: 2rem;
     }
   /* font style */
 
@@ -79,6 +80,14 @@
 
       }
 
+.postpro-container p{
+  font-family: "HindSiliguri-Light", sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding:1rem;
+    color: gray;
+    text-align: left;}
+
 
     /*image-sizing */
 
@@ -87,8 +96,29 @@
   /*margin-top: 5rem;*/
   padding-top: 6rem;
   width:100%;
+}
+
+.sketch1{
+  /*margin-top: 5rem;*/
+  padding-top: 4rem;
+  width:100%;
+  opacity: 0;
 
 }
+
+.sketch2{
+  /*margin-top: 5rem;*/
+  padding-top: 1rem;
+  width:100%;
+}
+
+.sketch3{
+  /*margin-top: 5rem;*/
+  padding-top: 8rem;
+  width:100%;
+}
+
+
 
 
 .moodboard{
@@ -99,11 +129,7 @@
 
 
   /* Setting up our grid */
-.container {
-	width: 1400px; /*Set the width of the entire website here */
-	margin-right: auto;
-	margin-left: auto; /* Margin-left and right are set to auto to center the container */
-}
+
 .seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
 	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
 }
