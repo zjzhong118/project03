@@ -31,7 +31,7 @@
 .menu li a {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: #b9d4e9;
 	padding: .6em 1em;
 }
 
@@ -47,11 +47,11 @@ transition: color 0.5s linear;
 
 .button{
 	text-decoration: none;
-	color: #0C3C60;
+	color: #b9d4e9;
 }
 
 .button:hover{
-		color: #6EA4CA;
+	color: #6EA4CA;
 	transition: color 0.25s linear;
 
 }

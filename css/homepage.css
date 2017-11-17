@@ -2,19 +2,26 @@
 /*landingimg//////////////*/
 
 
+
 .nametitle {
   margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
-  color: white;
-  font-size: 35px;
-  margin-right: 5rem;
-  text-align: right;
+  color: #5d9fcf;
+  font-size: 30px;
+  /*margin-right: 5rem;*/
+  /*text-align: right;*/
 }
 
 .nametitle span {
-	font-weight: 300;
+	font-weight: 300px;
 	display: block;
-	font-size: .9em;
+	font-size: .7em;
+    color: white;
+    margin-top: 1rem;
+    font-style: oblique;
+    opacity: 0.5;
+
+
 }
 
 
@@ -40,34 +47,41 @@
 		height: 100vh;
 		padding-top: 5rem;
 	}
+
+
+.nametitle{
+  font-size: 45px;
+
+}
 }
 
 
-
   /*button///////////*/
+
+.button2{
+  display: inline-block;
+  font-size: .9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  opacity: 0.6;
+  border-width: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  padding: .5em 1.75em;
+  color: #96c4e7;
+  margin-left: 5rem;
+
+}
 
   @media (min-width: 60rem) {
 
 .button2 {
   	display: inline-block;
   	font-size: 1.15rem;
-  	text-decoration: none;
-  	text-transform: uppercase;
-    background-color: white;
-     opacity: 0.6;
-  	border-width: 2px;
-    border-radius: 15px;
-  	border-style: solid;
-  	padding: .5em 1.75em;
-    color: #0C3C60;
-    margin-left: 50rem;
-  }
-
-  #project .button2{
-    margin-top: 2rem;
-    text-align: right;
 
   }
+
 
 
   .button2:hover{
@@ -98,10 +112,11 @@
   #project{
     height: 45rem;
     width: 100%;
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud4.jpg");
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
     background-size: cover;
     display: table;
     background-attachment: fixed;
+
     }
 
 
@@ -120,6 +135,7 @@
     .gallery {
     margin: 0;
     position: relative;
+    margin-bottom: 2rem;
 
 
     }
