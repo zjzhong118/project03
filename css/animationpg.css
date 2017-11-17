@@ -19,7 +19,7 @@
 
 
 .moodboard-container{
-  height: 500rem;
+  height: 160rem;
   width: 100%;
   background-color: #181f24;
   background-size: cover;
@@ -27,6 +27,15 @@
   background-attachment: fixed;
   }
 
+
+  .postpro-container{
+    height: 45rem;
+    width: 100%;
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    }
   /* font style */
 
 
@@ -98,6 +107,13 @@
 .seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
 	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
 }
+.twelve {
+	width: 100%;
+	float: left;
+	margin-left: 2%;
+}
+
+
 .eleven {
 	width: 91.5%;
 	float: left;
@@ -156,7 +172,6 @@
 }
 
 .row {
-
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
