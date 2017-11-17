@@ -1,6 +1,5 @@
-
-#first-bg{
-  height: 50rem;
+.first-bg{
+  height: 30rem;
   width: 100%;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/animationbg.png");
   background-size: cover;
@@ -18,14 +17,148 @@
 }
 
 
-.p-text{
+
+.moodboard-container{
+  height: 500rem;
+  width: 100%;
+  background-color: #181f24;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  }
+
+  /* font style */
+
+
+.subtitle{
+  margin-top: 8rem;
+  font-family: "basictitlefont", sans-serif;
+  color: #5d9fcf;
+  font-size: 25px;
+  /*margin-right: 5rem;*/
+  /*text-align: right;*/
+}
+
+.subtitle span {
+  /*font-weight: 300px;*/
+  display: block;
+  font-size: .7em;
+    color: white;
+    margin-top: 1rem;
+    font-style: oblique;
+    opacity: 0.7;
+
+}
+
+.moodboard-container p {
   font-family: "HindSiliguri-Light", sans-serif;
     max-width: 850px;
     margin: 0 auto;
-    padding-bottom: 3rem;
-    color: white;
+    padding:1rem;
+    color: gray;
+    text-align: left;
+
 }
 
-#first-bg p{
-text-align: left;
+  .first-bg p{
+    font-family: "HindSiliguri-Light", sans-serif;
+      max-width: 850px;
+      margin: 0 auto;
+      padding-bottom: 3rem;
+      color: white;
+      text-align: left;
+
+      }
+
+
+    /*image-sizing */
+
+
+.sketch{
+  /*margin-top: 5rem;*/
+  padding-top: 6rem;
+  width:100%;
+
+}
+
+
+.moodboard{
+   width:100%;
+}
+
+
+
+
+  /* Setting up our grid */
+.container {
+	width: 1400px; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+
+.row {
+
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
 }
