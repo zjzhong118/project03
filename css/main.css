@@ -12,7 +12,7 @@
 body {
   font-family: sans-serif;
   /*padding: 2rem;*/
-  background-color: #BAD4E8;
+  background-color:white;
   margin:0;
   text-align: center;
 
@@ -25,6 +25,10 @@ header {
 	right: 0;
 	margin: 1em;
   z-index: 100;
+}
+
+footer{
+  background blue;
 }
 
 
