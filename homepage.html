@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/nav-base.css">
     <link rel="stylesheet" href="css/nav-home-section.css">
     <link rel="stylesheet" href="css/homepage.css">
-    <script src="javascript/jquery-3.2.1.min.js" ></script>
+    <script src="javascript/jquery-3.2.1.min.js"> </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
   </head>
 
@@ -24,7 +25,7 @@
         <ul>
             <li><a href="homepage.html">Home</a></li>
             <li><a href="homepage.html">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
     </nav>
   </header>
@@ -42,11 +43,17 @@
     <svg>
       <circle class="project" />
     </svg>
+    <span class="description">
+        Project
+    </span>
   </a>
   <a href="#about" onclick="$.scrollify.move('#about');">
     <svg>
       <circle class="about" />
     </svg>
+    <span class="description">
+        About Me
+    </span>
   </a>
 </div>
 
@@ -61,7 +68,7 @@
 
 
 <section id="project" class="home-section" data-section-name="project">
-  <h2>
+  <h2 class="title-text" >
     Project
   </h2>
   <div class="project-covers">
@@ -94,18 +101,21 @@
 As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
 </p>
 
-
 </section>
 
 
 <footer>
-  <div class="container-footer">
-    <div class="row">
-      <div class="seven"><ul>
-      <li><a href="styleguide.html">Contact</a></li></ul>
-      </div>
-    </div>
+
+    <nav class="single-nav footer-style">
+        <ul>
+            <li><a href="homepage.html">Style Guide</a></li>
+            <li><a href="homepage.html">Citations</a></li>
+        </ul>
+
+
 </footer>
+
+
 </body>
     <script src="javascript/jquery.scrollify.min.js" ></script>
     <script src="javascript/homepage.js" ></script>

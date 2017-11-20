@@ -18,8 +18,6 @@
     margin-top: 1rem;
     font-style: oblique;
     opacity: 0.5;
-
-
 }
 
 
@@ -67,7 +65,7 @@
   border-radius: 15px;
   border-style: solid;
   padding: .5em 1.75em;
-  color: #96c4e7;
+  color: #96c4e7; //light
   margin-left: 5rem;
 
 }
@@ -231,3 +229,10 @@
     #about p{
     text-align: left;
     }
+
+
+
+    /*footer//////////////*/
+
+
+  

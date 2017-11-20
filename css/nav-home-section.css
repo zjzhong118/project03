@@ -10,25 +10,30 @@
 }
 
 .home-section-nav svg {
-    width: 1.05em;
-    height: 1.05em;
+    width: 2em;
+    height: 2em;
 }
 
 .home-section-nav svg circle {
-    cx: 0.5em;
-    cy: 0.5em;
-    r: 0.45em;
-    stroke: black;
+    cx: 0.4em;
+    cy: 0.4em;
+    r: 0.35em;
+    stroke: white;
+    opacity: 0.5;
     stroke-width: 1;
     fill: transparent;
 }
 
+
+
 .home-section-nav svg circle.active {
-    fill: black;
+    fill:white;
+
 }
 
 .home-section-nav a:hover svg circle {
-    fill: black;
+    fill: white;
+    opacity: 0.8;
 }
 
 .home-section-nav a {
@@ -37,20 +42,24 @@
     align-items: center;
     margin: 1em;
     text-decoration: none;
-    color: black;
+    color:#6EA4CA;
 }
 
 .home-section-nav a:visited {
-    color: black;
+    color: #6EA4CA;
 }
 
 .home-section-nav .description {
-    margin-left: 1em;
+    margin-left: 0em;
     opacity: 0;
+    padding-bottom: 1rem;
     display: none;
+    color: white;
+
 }
 
 .home-section-nav a:hover .description {
     display: initial;
     opacity: 1;
+      opacity: 0.5;
 }
