@@ -1,8 +1,6 @@
 
 /*landingimg//////////////*/
 
-
-
 .nametitle {
   margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
@@ -154,6 +152,25 @@
     	background: rgba(0,0,0,.6);
     	padding-bottom: 3em;
 
+    }
+
+    #project figure {
+      width: 30%;
+      height: auto;;
+    }
+
+
+    #project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #project .project-covers{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
     }
 
 

@@ -1,0 +1,56 @@
+.home-section-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.home-section-nav svg {
+    width: 1.05em;
+    height: 1.05em;
+}
+
+.home-section-nav svg circle {
+    cx: 0.5em;
+    cy: 0.5em;
+    r: 0.45em;
+    stroke: black;
+    stroke-width: 1;
+    fill: transparent;
+}
+
+.home-section-nav svg circle.active {
+    fill: black;
+}
+
+.home-section-nav a:hover svg circle {
+    fill: black;
+}
+
+.home-section-nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.home-section-nav a:visited {
+    color: black;
+}
+
+.home-section-nav .description {
+    margin-left: 1em;
+    opacity: 0;
+    display: none;
+}
+
+.home-section-nav a:hover .description {
+    display: initial;
+    opacity: 1;
+}
