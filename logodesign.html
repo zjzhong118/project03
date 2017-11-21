@@ -1,58 +1,97 @@
-<!DOCTYPE html>
 <html>
 
   <head>
 
-    <meta charset="utf-8">
-    <title>Animation</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nav-base.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <meta charset="utf-8">
+    <title>Logo Design</title>
     <link rel="stylesheet" href="css/animationpg.css">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/logo.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nav-base.css">
+        <link rel="stylesheet" href="css/nav-home-section.css">
+        <link rel="stylesheet" href="css/homepage.css">
+        <script src="javascript/jquery-3.2.1.min.js"> </script>
+        <script src="javascript/jquery.scrollify.min.js" ></script>
+        <script src="javascript/homepage.js" ></script>
+        <script src="javascript/jquery-3.2.1.min.js"> </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
   </head>
 
-<body>
-  <header>
-        <nav id="single-nav" class="single-nav menu" role="navigation">
+  <body>
+    <header>
+      <div>
+        <a href="homepage.html">
+          <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+        </a>
+      </div>
+      <div>
+        <nav id="single-nav" class="single-nav menu"role="navigation">
             <ul>
                 <li><a href="homepage.html">Home</a></li>
                 <li><a href="homepage.html">About</a></li>
-                <li><a href="homepage.html">Contact</a></li>
+                <li><a href="#">Projects</a></li>
             </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <div class="container-project">
 
-        <div class="row">
-          <div class="anicover-image">
-            <h1 class="nametitle">THE drop / Solo project</h1>
+
+
+      <div class="home-section-nav">
+
+        <a href="#sec-bg" onclick="$.scrollify.move('#sec-bg');">
+          <svg>
+            <circle class="#sec-bg active"/>
+          </svg>
+        </a>
+
+      </div>
+
+
+
+
+
+
+      <section class="sec-bg home-section" id="sec-bg" data-section-name="sec-bg">
+
+        <div class="first-bg-img">
+          <div class="introduction-umi">
+            <h1 class="nametitle-umi"> Logo Design / Umi
+             </h1>
+             <p class="p-text"> This short animation film has the theme of imagination.  It started with a single water drop, then developed to the world of ocean. This film was produced basing on the use of green screen and chroma key.  The objects are created by hand drawing to create an organic feeling to the video.  The combination of real world and the animation world also gives the audience a feeling of mystery and fantasy.
+        </p>
           </div>
-        </div>         <!-- 1 -->
+      <img src="img/umi-logo.png" alt="a blue alien like logo" class="umi-logo">
 
-        <div class="row">
-        </div>        <!-- 2 -->
 
-        <div class="row">
-        </div>        <!-- 3 -->
+      </div>
 
-        <div class="row">
-        </div>        <!-- 4 -->
 
-        <div class="row">
-        </div>        <!-- 5 -->
 
-        <div class="row">
-        </div>        <!-- 6 -->
 
-        <div class="row">
-        </div>        <!-- 7 -->
 
-        <div class="row">
-        </div>        <!-- 8 -->
-</>
+
+
+
+      </section>
+
+
+
+
+
+
 </body>
 
 <!-- <div id="first-bg">

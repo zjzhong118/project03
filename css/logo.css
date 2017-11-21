@@ -1,0 +1,51 @@
+.sec-bg{
+  height: 80rem;
+  background:#BAD4E8;
+  background-size: cover;
+  display: table;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+
+
+/*font*/
+.nametitle-umi {
+  margin-top: 10rem;
+  font-family: "basictitlefont", sans-serif;
+  color: #5d9fcf;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 10rem;
+}
+
+.nametitle-umi span {
+	font-weight: 300px;
+	display: block;
+	font-size: .7em;
+  color: white;
+  margin-top: 1rem;
+  font-style: oblique;
+  opacity: 0.5;
+}
+
+
+
+/*logo-styleing*/
+.first-bg-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.first-bg-img .introduction-umi {
+  max-width: 50em;
+}
+
+.umi-logo{
+  	height: 25em;
+  	margin: 5em;
+  }
+
+
+}

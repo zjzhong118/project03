@@ -8,16 +8,6 @@
   background-attachment: fixed;
 }
 
-.nametitle {
-  margin-top: 10rem;
-  font-family: "basictitlefont", sans-serif;
-  color: white;
-  font-size: 35px;
-  text-align: center;
-}
-
-
-
 .moodboard-container{
   height: 171rem;
   width: 100%;
@@ -152,9 +142,8 @@
   /* Setting up our grid */
 
 
-body .container{
+body .container-fluid{
 padding: 0;
-
 }
 
 body .row{

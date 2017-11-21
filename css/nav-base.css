@@ -2,10 +2,11 @@
 
 @media(min-width:30em) {
 /* nav-bar*/
-header {
+body header {
 	background-color: rgb(255, 255, 255);
 	margin: 0;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
