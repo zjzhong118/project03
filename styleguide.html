@@ -6,28 +6,60 @@
     <meta charset="utf-8">
     <title>Style Guide PO3</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nav-base.css">
-      <link rel="stylesheet" href="css/homepage.css">
+
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nav-base.css">
+        <link rel="stylesheet" href="css/nav-home-section.css">
+        <link rel="stylesheet" href="css/homepage.css">
+        <script src="javascript/jquery-3.2.1.min.js"> </script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
   </head>
 
   <body>
 
+    <header>
+      <a href="homepage.html">
+        <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+      </a>
+      <nav id="single-nav" class="single-nav menu"role="navigation">
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="homepage.html">Citations</a></li>
+              <li><a href="#">Git Repo</a></li>
+          </ul>
+      </nav>
+    </header>
+
+
     <h1>Portfolio Style Guide</h1>
 
-
-
-    <nav>
-
-      <p>
-        Go to:
-        <a href="#interactive_elements">Interactive Elements</a>,
-        <a href="#text_elements">Text Elements</a>,
-        <a href="#combined_elements">Combined Elements</a>,
-      </p>
-
-    </nav>
-
+    <div class="home-section-nav">
+      <a href="#interactive_elements" onclick="$.scrollify.move('#landing');">
+        <svg>
+          <circle class="landing active"/>
+        </svg>
+        <span class="description">
+            Interactive Elements
+        </span>
+      </a>
+      <a href="#text_elements" onclick="$.scrollify.move('#project');">
+        <svg>
+          <circle class="project" />
+        </svg>
+        <span class="description">
+            Text Elements
+        </span>
+      </a>
+      <a href="#combined_elements" onclick="$.scrollify.move('#about');">
+        <svg>
+          <circle class="about" />
+        </svg>
+        <span class="description">
+            Combined Elements
+        </span>
+      </a>
+    </div>
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
@@ -46,7 +78,7 @@
 
         <h3>Rendered element:</h3>
 
-        <a class="button" href="#">Read more > </a>
+        <a class="button" href="#">Read more> </a>
                 </nav>
 
       </section>
@@ -123,39 +155,32 @@
       <section>
         <h2>Project Listing</h2>
 
-        <div class="container">
+
+        <section id="project" class="home-section" data-section-name="project">
+          <h2 class="title-text">
+            Project
+          </h2>
+          <div class="project-covers">
+            <figure class="gallery">
+              <img src="img/logocover.jpg" alt="portfolio item" class="project-img">
+              <figcaption class="project-cap">
+                <p>LOGO DESIGN</p>
+                <a href="logodesign.html" class="button">Project details</a>
+              </figcaption>
+            </figure>
 
 
-
-          <div class="item project-1">
-
-            <img src="img/logocover.jpg" alt="uiux" class="homepage-img-style">
-          </div>
-
-          <div class="item project-2">
-            <img src="imglogocover.jpg" alt="uiux" class="homepage-img-style">
-          </div>
-
-          <div class="item project-3">
-            <img src="img/logocover.jpg" alt="uiux" class="homepage-img-style">
-          </div>
-
-
-          <div class="item project-1">
-
-            <img src="img/logocover.jpg" alt="uiux" class="homepage-img-style">
-          </div>
-
-          <div class="item project-2">
-            <img src="img/logocover.jpg" alt="uiux" class="homepage-img-style">
-          </div>
-
-          <div class="item project-3">
-            <img src="img/logocover.jpg" alt="uiux" class="homepage-img-style">
+            <figure class="gallery">
+              <img src="img/videocover.jpg" alt="portfolio" class="project-img">
+              <figcaption class="project-cap">
+                <p>VIDEO PRODUCTION</p>
+                <a href="animation.html" class="button">Project details</a>
+              </figcaption>
+            </figure>
           </div>
 
 
-        </div>
+
 
 
       </section>

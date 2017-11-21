@@ -12,7 +12,7 @@
 body {
   font-family: sans-serif;
   /*padding: 2rem;*/
-  background-color:white;
+  background-color: #96c4e7;
   margin:0;
   text-align: center;
 
@@ -40,7 +40,7 @@ header {
 	text-decoration: none;
 	color: #b9d4e9;
 	padding: .6em 1em;
-	background-color: rgba(255, 255, 255, 0.8);
+	/*background-color: rgba(255, 255, 255, 0.8);*/
 }
 
 .footer-style li a:hover {
