@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/nav-home-section.css">
         <link rel="stylesheet" href="css/homepage.css">
         <script src="javascript/jquery-3.2.1.min.js"> </script>
+        <script src="javascript/homepage.js"> </script>
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
   </head>
@@ -26,13 +27,11 @@
           <ul>
               <li><a href="homepage.html">Home</a></li>
               <li><a href="homepage.html">Citations</a></li>
-              <li><a href="#">Git Repo</a></li>
+              <li><a href="https://github.com/zjzhong118/project03">Git Repo</a></li>
           </ul>
       </nav>
     </header>
 
-
-    <h1>Portfolio Style Guide</h1>
 
     <div class="home-section-nav">
       <a href="#interactive_elements" onclick="$.scrollify.move('#landing');">
@@ -63,11 +62,10 @@
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
+    <section class="home-section" id="interactive_elements">
 
       <!-- Default Button styling section -->
-      <section>
-
+    <h1>Portfolio Style Guide</h1>
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
@@ -81,7 +79,6 @@
         <a class="button" href="#">Read more> </a>
                 </nav>
 
-      </section>
 
 
 
@@ -111,7 +108,9 @@
         <h3>Sample code:</h3>
         <code>&lt;h1 class="p-text"&gt; This is a paragraph &lt;/p&gt;</code>
         <h3>Rendered element:</h3>
-        <p class="p-text"> This is a paragraph</h1>
+        <p class="p-text">I am passionate and confident on working in animation, video production, and  UI/UX design industries.
+
+    As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.</p>
       </section>
 
 
@@ -126,13 +125,24 @@
       <section>
         <h2>Main Navigation</h2>
 
-        <nav id="single-nav" class="single-nav menu" role="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+
+
+
+        <nav>
+          <a href="homepage.html">
+            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+          </a>
+          <nav id="single-nav" class="single-nav menu"role="navigation">
+              <ul>
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="homepage.html">About</a></li>
+                  <li><a href="#">Projects</a></li>
+              </ul>
+          </nav>
         </nav>
+
+
+
       </section>
 
 
@@ -156,7 +166,7 @@
         <h2>Project Listing</h2>
 
 
-        <section id="project" class="home-section" data-section-name="project">
+        <section id="project-styleguide" data-section-name="project-styleguide">
           <h2 class="title-text">
             Project
           </h2>

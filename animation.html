@@ -5,47 +5,102 @@
 
     <meta charset="utf-8">
     <title>Animation</title>
-
-    <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animationpg.css">
-    <link rel="stylesheet" href="css/nav-base.css">
-    <link rel="stylesheet" href="css/homepage.css">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nav-base.css">
+        <link rel="stylesheet" href="css/nav-home-section.css">
+        <link rel="stylesheet" href="css/homepage.css">
+        <script src="javascript/jquery-3.2.1.min.js"> </script>
+        <script src="javascript/jquery.scrollify.min.js" ></script>
+        <script src="javascript/homepage.js" ></script>
+        <script src="javascript/jquery-3.2.1.min.js"> </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
 
 
   </head>
 
 <body>
   <header>
-        <nav id="single-nav" class="single-nav menu" role="navigation">
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="homepage.html">About</a></li>
-                <li><a href="homepage.html">Contact</a></li>
-            </ul>
-        </nav>
-      </header>
+    <a href="homepage.html">
+      <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+    </a>
+    <nav id="single-nav" class="single-nav menu"role="navigation">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="homepage.html">About</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+  </header>
 
-<div class="first-bg">
+
+
+
+  <div class="home-section-nav">
+
+    <a href="#first-bg" onclick="$.scrollify.move('#first-bg');">
+      <svg>
+        <circle class="#first-bg active"/>
+      </svg>
+    </a>
+
+
+    <a href="#moodboard-container" onclick="$.scrollify.move('#moodboard-container');">
+      <svg>
+        <circle class="moodboard-container"/>
+      </svg>
+    </a>
+
+
+
+
+    <a href="#postpro-container" onclick="$.scrollify.move('#postpro-container');">
+      <svg>
+        <circle class="postpro-container" />
+      </svg>
+    </a>
+  </div>
+
+
+
+
+
+
+<section class="first-bg home-section" id="first-bg" data-section-name="first-bg">
   <div class="first-bg-img">
-    <h1 class="nametitle"> tHE drop / Solo project
+    <h1 class="nametitle"> The drop / Solo project
      </h1>
      <p class="p-text"> This short animation film has the theme of imagination.  It started with a single water drop, then developed to the world of ocean. This film was produced basing on the use of green screen and chroma key.  The objects are created by hand drawing to create an organic feeling to the video.  The combination of real world and the animation world also gives the audience a feeling of mystery and fantasy.
 </p>
 </div>
-</div>
+</section>
 
-<div class="moodboard-container">
+
+<section class="moodboard-container home-section container"id="moodboard-container" data-section-name="moodboard-container" >
 
   <div class="row">
-
-    <div class="four">
+    <div class="col-md-4 col-sm-6 col-xs-12">
     <h1 class="subtitle">Process / Before Editing <span> Moodboard </span>
     </h1>
     <p>The first step of producing the movie is to create the storyboard to plan out what and where to shot. And the mood board to set the feelings and style of the film.</p>
     </div>
 
-    <div class="eight">
-      <img class="sketch3" src="img/moodboard.png" alt="a gallery of images that has blue colour tone">
+    <div class="eight twelve-sm">
+      <figure>
+        <img class="sketch3" src="img/moodboard.png" alt="a gallery of images that has blue colour tone">
+        <figcaption class="caption-animation">Fig1. - A moodboard for the animation.</figcaption>
+     </figure>
     </div>
 
   </div>
@@ -57,6 +112,8 @@
     </h1>
     <p>Creating storyboard to plan out what and where will be for each shot.</p>
     </div>
+
+
     <div class="three">
       <img class="sketch3" src="img/storyb-1.jpg" alt="a gallery of images that has blue colour tone">
     </div>
@@ -68,6 +125,10 @@
     </div>
 
   </div>
+
+
+
+<section class="moodboard-container home-section"id="moodboard-container" data-section-name="moodboard-container" >
 
 
 
@@ -109,7 +170,12 @@
 
 </div>
 
-<div class="postpro-container">
+</section>
+
+
+
+<section class="postpro-container home-section"id="postpro-container" data-section-name="postpro-container" >
+
 
 
   <div class="row">
@@ -134,7 +200,7 @@
   </div>
 </div>
 
-</div>
+</section>
 
 
 

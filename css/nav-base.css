@@ -3,7 +3,7 @@
 @media(min-width:30em) {
 /* nav-bar*/
 header {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgb(255, 255, 255);
 	margin: 0;
 	display: flex;
 	justify-content: space-between;
