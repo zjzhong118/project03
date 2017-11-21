@@ -31,21 +31,52 @@
 
 
 
-/*logo-styleing*/
-.first-bg-img {
+/*landing-styleing*/
+
+.sec-bg-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+
 }
 
-.first-bg-img .introduction-umi {
+.introduction-umi{
   max-width: 50em;
+  /*margin: 0 auto;*/
 }
 
 .umi-logo{
   	height: 25em;
   	margin: 5em;
   }
+  .home-section {
+  width: 100%;
+  }
 
+  @media(max-width:375px) {
+  .sec-bg-img{
+    margin: 0 auto;
+  }
 
-}
+  .introduction-umi{
+
+    margin: 0 auto;
+    padding: 2rem;
+  }
+    .p-text{
+      font-family: "HindSiliguri-Light", sans-serif;
+        /*max-width: 40%;*/
+        margin:0 auto;
+        padding-bottom: 3rem;
+        text-align: left;
+    }
+
+    .nametitle-umi {
+      margin-top: 10rem;
+      margin: 0 auto;
+      font-family: "basictitlefont", sans-serif;
+      color: #5d9fcf;
+      font-size: 35px;
+      text-align: center;
+      /*margin-left: 10rem;*/
+    }

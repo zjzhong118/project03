@@ -88,7 +88,7 @@ transition: color 0.5s linear;
 
 .p-text{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 40%;
+    /*max-width: 40%;*/
     margin-left: 10rem;
     padding-bottom: 3rem;
     text-align: left;

@@ -1,13 +1,10 @@
-/* Base styles that apply to all menus */
-
-@media(min-width:30em) {
-/* nav-bar*/
+/* Base styles that apply to all menus
+nav-bar*/
 body header {
 	background-color: rgb(255, 255, 255);
 	margin: 0;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+justify-content:space-between;
 }
 
 .site-logo {
@@ -20,12 +17,11 @@ body header {
 }
 
 .single-nav ul{
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
 }
 
-}
 
 
 .single-nav a{
@@ -73,4 +69,37 @@ transition: color 0.5s linear;
 	color: #6EA4CA;
 	transition: color 0.25s linear;
 
+}
+
+.glyphicon-menu-hamburger, .glyphicon-remove {
+	margin: 1em;
+	color: #333333;
+	font-size: 16pt;
+}
+
+
+/* mobile-nav */
+.mobile-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	overflow: hidden;
+	display: hidden;
+	position: fixed;
+	left: 100%;
+	top: 0;
+	height: 100%;
+	width: 95%;
+	background-color: aqua;
+	z-index: 999
+}
+
+.mobile-nav.active {
+	left: 5%;
+}
+
+@media(min-width: 30em) {
+	.mobile-nav{
+		display: none;
+	}
 }
