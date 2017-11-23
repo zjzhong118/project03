@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $.scrollify({
         section : ".home-section",
+        interstitialSection: "footer",
         before: function(activeIndex, sections) {
             var currentSection = sections[activeIndex].attr("data-section-name");
             var activeCircle = $(".home-section-nav").find("." + currentSection);

@@ -1,3 +1,11 @@
+/*section///////////////*/
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*landingimg//////////////*/
 
@@ -16,10 +24,11 @@
 	font-size: .7em;
   color: white;
   margin-top: 1rem;
-  margin: 0 auto;
   font-style: oblique;
   opacity: 0.5;
 }
+
+
 
 
 .landing{
@@ -27,19 +36,9 @@
   width: 100%;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/titleimage%20copy.jpg");
   background-size: cover;
-  display: table;
   background-position: left;
   background-attachment: fixed;
 }
-.landing a{
-  margin-top: 1rem;
-  margin-right: 6rem;
-}
-
-.landing-img{
-		height: 100vh;
-		padding-top: 30rem;
-	}
 
 
   @media (min-width: 30rem) {
@@ -56,8 +55,6 @@
 }
 
 
-
-
   /*button///////////*/
 
 .button2{
@@ -71,9 +68,9 @@
   border-radius: 15px;
   border-style: solid;
   padding: .5em 1.75em;
-  color: #96c4e7; //light
+  color: #96c4e7;
   margin-left: 5rem;
-
+  text-decoration: none;
 }
 
   @media (min-width: 60rem) {
@@ -116,7 +113,6 @@
     width: 100%;
     background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
     background-size: cover;
-    display: table;
     background-attachment: fixed;
 
     }
@@ -219,7 +215,6 @@
   width: 100%;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");
   background-size: cover;
-  display: table;
   background-attachment: fixed;
 }
 #about h1{
@@ -239,3 +234,7 @@
 
 
     /*footer//////////////*/
+
+  footer {
+    padding-top: 1px;
+  }

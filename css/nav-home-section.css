@@ -4,9 +4,10 @@
     left: 0;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: flex-start;
     flex-direction: column;
     height: 100%;
+    z-index: 900;
 }
 
 .home-section-nav svg {
@@ -16,7 +17,7 @@
 
 .home-section-nav svg circle {
     cx: 0.4em;
-    cy: 0.4em;
+    cy: 0.8em;
     r: 0.35em;
     stroke: white;
     opacity: 0.5;
@@ -47,6 +48,7 @@
 
 .home-section-nav a:visited {
     color: #6EA4CA;
+    text-decoration: none;
 }
 
 .home-section-nav .description {
@@ -58,8 +60,18 @@
 
 }
 
-.home-section-nav a:hover .description {
+.home-section-nav .nav-group {
+    margin: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.home-section-nav .nav-group:hover {
+    cursor: pointer;
+}
+
+.home-section-nav .nav-group:hover .description {
     display: initial;
-    opacity: 1;
       opacity: 0.5;
 }
