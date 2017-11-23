@@ -1,5 +1,7 @@
+/*sections///////////*/
+
 .first-bg{
-  height: 30rem;
+  height: 40rem;
   width: 100%;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/animationbg.png");
   background-size: cover;
@@ -11,7 +13,7 @@
 .moodboard-container{
   height: 171rem;
   width: 100%;
-  background-color: #181f24;
+  background: #181f24;
   background-size: cover;
   display: table;
   background-attachment: fixed;

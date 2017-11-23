@@ -68,6 +68,7 @@ transition: color 0.5s linear;
   color:  #5d9fcf;
   font-size: 30px;
   text-align: center;
+
   /*margin-left: 10rem;*/
 }
 
@@ -92,6 +93,19 @@ transition: color 0.5s linear;
     text-align: center;
 }
 
+.p-role{
+  font-family: "HindSiliguri-Light", sans-serif;
+    /*max-width: 40%;*/
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size:15px;
+     font-weight: bold;
+    color: black;
+
+
+
+
+}
 
 
 

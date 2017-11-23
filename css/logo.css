@@ -1,32 +1,48 @@
-.sec-bg{
+/*section//////*/
+
+
+
+.umi-bg{
   height: 80rem;
   background:#BAD4E8;
   background-size: cover;
   display: table;
-  background-position: right;
+  /*background-position: right;*/
   background-attachment: fixed;
 }
 
+.first-logo{
+  height: 171rem;
+  width: 100%;
+    background:#BAD4E8;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
 
 /*font*/
-.nametitle-umi {
-  margin-top: 10rem;
-  font-family: "basictitlefont", sans-serif;
-  color: #5d9fcf;
-  font-size: 35px;
-  text-align: left;
-  margin-left: 10rem;
+
+.umi-bg p{
+  font-family: "HindSiliguri-Light", sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    /*color: white;*/
+    margin-top: 5rem;
+
 }
 
-.nametitle-umi span {
-	font-weight: 300px;
-	display: block;
-	font-size: .7em;
-  color: white;
-  margin-top: 1rem;
-  font-style: oblique;
-  opacity: 0.5;
+
+
+.caption-animation{
+  color: gray;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: right;
+
+
 }
+
 
 
 
@@ -75,3 +91,15 @@
       text-align: center;
       /*margin-left: 10rem;*/
     }
+
+
+    /* Setting up our grid */
+
+
+  body .container-fluid{
+  padding: 0;
+  }
+
+  body .row{
+    margin: 0;
+  }
