@@ -1,21 +1,23 @@
 /*section///////////////*/
-.home-section {
+.scroll-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.scroll-section h1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /*landingimg//////////////*/
 
 .nametitle {
-  margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
   color: #5d9fcf;
   font-size: 30px;
-  /*margin-right: 5rem;*/
-  /*text-align: right;*/
 }
 
 .nametitle span {
@@ -69,8 +71,6 @@
   border-style: solid;
   padding: .5em 1.75em;
   color: #96c4e7;
-  margin-left: 5rem;
-  text-decoration: none;
 }
 
   @media (min-width: 60rem) {
@@ -156,7 +156,9 @@
 
     #project figure {
       width: 30%;
-      height: auto;;
+      height: auto;
+      min-width: 20rem;
+      margin: 1rem;
     }
 
 
@@ -171,6 +173,7 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
     }
 
 
@@ -234,7 +237,3 @@
 
 
     /*footer//////////////*/
-
-  footer {
-    padding-top: 1px;
-  }

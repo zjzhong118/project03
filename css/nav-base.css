@@ -1,10 +1,11 @@
-/* Base styles that apply to all menus
-nav-bar*/
+/* Base styles that apply to all menus */
+
+/* nav-bar*/
 body header {
-	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
 	margin: 0;
 	display: flex;
-justify-content:space-between;
+	justify-content: space-between;
 }
 
 .site-logo {
@@ -77,6 +78,20 @@ transition: color 0.5s linear;
 	font-size: 16pt;
 }
 
+@media(min-width: 30rem) {
+	header .mobile-nav-trigger {
+		display: none;
+	}
+	.mobile-nav {
+		display: none;
+	}
+}
+
+@media(max-width: 30rem) {
+	.single-nav.menu {
+		display: none;
+	}
+}
 
 /* mobile-nav */
 .mobile-nav {

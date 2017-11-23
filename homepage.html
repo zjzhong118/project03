@@ -8,7 +8,7 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/nav-base.css">
-    <link rel="stylesheet" href="css/nav-home-section.css">
+    <link rel="stylesheet" href="css/nav-scroll-section.css">
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/animatedcloud.css">
     <script src="javascript/jquery-3.2.1.min.js"> </script>
@@ -28,14 +28,14 @@
     <a href="homepage.html">
       <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
     </a>
-    <nav id="single-nav" class="single-nav menu hidden-xs"role="navigation">
+    <nav id="single-nav" class="single-nav menu"role="navigation">
         <ul>
             <li><a href="homepage.html">Home</a></li>
             <li><a href="homepage.html">About</a></li>
             <li><a href="#">Projects</a></li>
         </ul>
     </nav>
-    <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger hidden-sm hidden-md hidden-lg hidden-xl" aria-hidden="true">
+    <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
   </header>
 
 <div class="mobile-nav">
@@ -52,7 +52,7 @@
       </nav>
   </div>
 
-<div class="home-section-nav">
+<div class="scroll-section-nav">
   <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
     <svg>
       <circle class="landing active"/>
@@ -79,7 +79,7 @@
   </div>
 </div>
 
-<section class="landing home-section" id="landing" data-section-name="landing">
+<section class="landing scroll-section" id="landing" data-section-name="landing">
   <div class="cloud-container">
         <img class="animated-cloud1 active" src="img/floatingcloud1.png"/>
         <img class="animated-cloud2 active" src="img/floatingcloud2.png"/>
@@ -93,7 +93,7 @@
 
 
 
-<section id="project" class="home-section" data-section-name="project">
+<section id="project" class="scroll-section" data-section-name="project">
   <h2 class="title-text" >
     Project
   </h2>
@@ -120,7 +120,7 @@
 </section>
 
 
-<section id="about" class="home-section" data-section-name="about">
+<section id="about" class="scroll-section" data-section-name="about">
     <h1>My Story</h1>
     <p class="p-text"> I am passionate and confident on working in animation, video production, and  UI/UX design industries.
 

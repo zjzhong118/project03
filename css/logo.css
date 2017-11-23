@@ -8,7 +8,6 @@
 }
 
 
-
 /*font*/
 .nametitle-umi {
   margin-top: 10rem;
@@ -53,10 +52,6 @@
   width: 100%;
   }
 
-  @media(max-width:375px) {
-  .sec-bg-img{
-    margin: 0 auto;
-  }
 
   .introduction-umi{
 

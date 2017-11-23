@@ -8,6 +8,9 @@
   transition: all ease-in-out 250ms;
 }
 
+body a, body a:hover {
+  text-decoration: none;
+}
 
 body {
   font-family: sans-serif;
@@ -34,10 +37,6 @@ header {
 	margin: 1em;
   z-index: 100;
   top:0;
-}
-
-.home-section{
-  /*padding-top: 3rem;*/
 }
 
 .footer-style{
@@ -89,9 +88,8 @@ transition: color 0.5s linear;
 .p-text{
   font-family: "HindSiliguri-Light", sans-serif;
     /*max-width: 40%;*/
-    margin-left: 10rem;
     padding-bottom: 3rem;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -148,7 +146,6 @@ section code {
   width: 150px;
   height: 150px;
   margin-top: 10px;
-   #BAD4E8
 }
 
 
@@ -223,3 +220,23 @@ section code {
       justify-content: center;
       align-items: center;
     }
+
+
+.scroll-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 6rem 6rem
+}
+
+  footer {
+    padding: 1px;
+  }
+
+
+  /* bootstrap add-on */
+@media(min-width: 992px) {
+  .col-md-offset-1-5 {
+    margin-left: 12.5%;
+  }
+}

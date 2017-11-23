@@ -1,4 +1,4 @@
-.home-section-nav {
+.scroll-section-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,12 +10,12 @@
     z-index: 900;
 }
 
-.home-section-nav svg {
+.scroll-section-nav svg {
     width: 2em;
     height: 2em;
 }
 
-.home-section-nav svg circle {
+.scroll-section-nav svg circle {
     cx: 0.4em;
     cy: 0.8em;
     r: 0.35em;
@@ -27,17 +27,17 @@
 
 
 
-.home-section-nav svg circle.active {
+.scroll-section-nav svg circle.active {
     fill:white;
 
 }
 
-.home-section-nav a:hover svg circle {
+.scroll-section-nav a:hover svg circle {
     fill: white;
     opacity: 0.8;
 }
 
-.home-section-nav a {
+.scroll-section-nav a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -46,12 +46,12 @@
     color:#6EA4CA;
 }
 
-.home-section-nav a:visited {
+.scroll-section-nav a:visited {
     color: #6EA4CA;
     text-decoration: none;
 }
 
-.home-section-nav .description {
+.scroll-section-nav .description {
     margin-left: 0em;
     opacity: 0;
     padding-bottom: 1rem;
@@ -60,18 +60,18 @@
 
 }
 
-.home-section-nav .nav-group {
+.scroll-section-nav .nav-group {
     margin: 14px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.home-section-nav .nav-group:hover {
+.scroll-section-nav .nav-group:hover {
     cursor: pointer;
 }
 
-.home-section-nav .nav-group:hover .description {
+.scroll-section-nav .nav-group:hover .description {
     display: initial;
       opacity: 0.5;
 }
