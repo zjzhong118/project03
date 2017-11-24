@@ -79,7 +79,19 @@ transition: color 0.5s linear;
   color: white;
   font-size: 35px;
   /*text-align: center;*/
-  margin-left: 5rem;
+  /*margin-left: 5rem;*/
+}
+
+
+.pro-date{
+  display:inline;
+  font-size: .5em;
+    color: white;
+    margin-top: 1rem;
+    font-style: oblique;
+    opacity: 0.7;
+
+
 }
 
 
@@ -88,16 +100,19 @@ transition: color 0.5s linear;
 
 .p-text{
   font-family: "HindSiliguri-Light", sans-serif;
-    /*max-width: 40%;*/
+    max-width: 850px;
+    margin: 0 auto;
     padding-bottom: 3rem;
-    text-align: center;
+    /*color: white;*/
+    margin-top: 5rem;
+
 }
 
 .p-role{
   font-family: "HindSiliguri-Light", sans-serif;
     /*max-width: 40%;*/
     padding-bottom: 3rem;
-    text-align: center;
+    text-align: left;
     font-size:15px;
      font-weight: bold;
     color: black;

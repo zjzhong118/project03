@@ -20,6 +20,16 @@
   background-attachment: fixed;
 }
 
+
+.final-logo{
+  height: 171rem;
+  width: 100%;
+    background:#BAD4E8;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+
+}
 /*font*/
 
 .umi-bg p{
@@ -32,6 +42,24 @@
 
 }
 
+.logo-span{
+  display: block;
+  font-size: .7em;
+    color: white;
+    margin-top: 1rem;
+    font-style: oblique;
+    opacity: 0.7;
+}
+
+
+.text-left {
+
+    font-family: "HindSiliguri-Light";
+      max-width: 850px;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+        text-align: left;
+}
 
 
 .caption-animation{
@@ -41,6 +69,25 @@
   text-align: right;
 
 
+}
+
+
+.subtitle{
+  margin-top: 8rem;
+  font-family: "basictitlefont", sans-serif;
+  color: #5d9fcf;
+  font-size: 25px;
+  /*margin-right: 5rem;*/
+  /*text-align: right;*/
+}
+
+
+.postpro-container p{
+  font-family: "HindSiliguri-Light", sans-serif;
+    max-width: 850px;
+    margin: 0 auto;
+    padding:1rem;
+    color: white;
 }
 
 
@@ -61,12 +108,23 @@
 }
 
 .umi-logo{
-  	height: 25em;
+  	height: 27em;
   	margin: 5em;
   }
+
+  .umi-text-logo{
+    width: 20em;
+    margin: 5em;
+    /*padding-top: 10em;*/
+  }
+
+
+
+
   .home-section {
   width: 100%;
   }
+
 
 
   .introduction-umi{
