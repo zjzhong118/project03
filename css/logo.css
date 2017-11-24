@@ -24,7 +24,7 @@
 .final-logo{
   height: 171rem;
   width: 100%;
-    background:#BAD4E8;
+  background:#BAD4E8;
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -69,7 +69,7 @@
 }
 
 
-.subtitle{
+.row h2{
   margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
   color: #5d9fcf;
@@ -78,6 +78,12 @@
   /*text-align: right;*/
 }
 
+.row h1{
+  margin-top: 10rem;
+  font-family: "basictitlefont", sans-serif;
+  color: white;
+  font-size: 35px;
+}
 
 .postpro-container p{
   font-family: "HindSiliguri-Light", sans-serif;

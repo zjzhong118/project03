@@ -43,7 +43,7 @@
 }
 
 
-  @media (min-width: 30rem) {
+  @media (min-width: 500px) {
 .landing-img{
 		height: 100vh;
 		padding-top: 5rem;
@@ -73,7 +73,7 @@
   color: #96c4e7;
 }
 
-  @media (min-width: 60rem) {
+  @media (min-width: 500px) {
 
 .button2 {
   	display: inline-block;
@@ -180,7 +180,7 @@
 
 
 
-      @media (min-width: 60rem) {
+      @media (min-width:500px) {
       	.gallery {
       		width: 33.3333334%;
       		overflow: hidden;
@@ -202,7 +202,7 @@
 
 }
 
-    @media (min-width: 37rem) {
+    @media (min-width: 500px) {
       .gallery {
         width: 50%;
         float: left;
