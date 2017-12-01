@@ -123,8 +123,18 @@ font-size: .7em;
     margin-top: 2rem;
     max-width: 200rem;
 
+}
+.p-text-citation{
+  font-family: "HindSiliguri-Light", sans-serif;
+    /*max-device-width: 850px;*/
+    margin: 0 auto;
+    /*padding-bottom: 3rem;*/
+    /*margin-top: 2rem;*/
+    max-width: 200rem;
+    text-align: left;
 
 }
+
 
 .p-role{
   font-family: "HindSiliguri-Light", sans-serif;
@@ -137,7 +147,9 @@ font-size: .7em;
 
 }
 
-
+.landing-citation{
+  background: #9eccf1;
+}
 
 /* section:not([id]) {
   margin: 1em 0;

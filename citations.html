@@ -2,11 +2,12 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Animation</title>
-      <link rel="stylesheet" href="css/logo.css">
+      <title>Citations</title>
       <link href="css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="css/nav-base.css">
       <link rel="stylesheet" href="css/nav-scroll-section.css">
+      <link rel="stylesheet" href="css/homepage.css">
+      <link rel="stylesheet" href="css/animatedcloud.css">
       <script src="javascript/jquery-3.2.1.min.js"> </script>
       <script src="javascript/jquery.scrollify.min.js" ></script>
       <!-- Latest compiled and minified CSS -->
@@ -20,7 +21,7 @@
    <body>
       <header>
          <a href="homepage.html">
-         <img src="img/site-logo.png" alt="name logo of Christine Zhong" class="site-logo">
+         <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
          </a>
          <nav id="single-nav" class="single-nav menu"role="navigation">
             <ul>
@@ -31,10 +32,13 @@
          </nav>
          <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
       </header>
+
       <div class="mobile-nav">
          <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
-    
-         <nav id="" class="menu" role="navigation">
+         <!-- <a href="homepage.html">
+            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+            </a> -->
+         <nav class="menu" role="navigation">
             <ul class="hamburger-style">
                <li><a href="homepage.html">Home</a></li>
                <li><a href="animation.html">Video Production</a></li>
@@ -42,22 +46,67 @@
             </ul>
          </nav>
       </div>
-
-      <section class="citation-bg scroll-section" id="umi-bg" data-section-name="citation-bg">
+      <div class="scroll-section-nav">
+         <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
+            <svg>
+               <circle class="landing active"/>
+            </svg>
+            <span class="description">
+            Top
+            </span>
+         </div>
+         <div class="nav-group" href="#video-producer" onclick="$.scrollify.move('#video-producer');">
+            <svg>
+               <circle class="video-producer" />
+            </svg>
+            <span class="description">
+            Video Production
+            </span>
+         </div>
+         <div class="nav-group" href="#graphic-designer" onclick="$.scrollify.move('#graphic-designer');">
+            <svg>
+               <circle class="graphic-designer" />
+            </svg>
+            <span class="description">
+            Graphic designer
+            </span>
+         </div>
+      </div>
+      <section class="landing-citation scroll-section" data-section-name="landing-ciation">
          <div class="scroll-section-content">
-            <div class="row">
-               <div class="col-md-6 col-md-offset-1 col-xs-12">
-                  <h1 class="nametitle">Citations
-                  </h1>
-
-               </div>
-
+            <div class="cloud-container">
+               <img class="animated-cloud1 active" src="a white cloud floating on the page"/>
+               <!-- <img class="animated-cloud2 active" src="img/floatingcloud2.png"/> -->
             </div>
+            <!--<div class="landing-img">-->
+            <h1 class="nametitle">Citations
+            </h1>
+
+
+            <p class="p-text-citation">
+              Bootstrap v3.3.7: (http://getbootstrap.com)</p>
+                <p class="p-text-citation">  * Copyright 2011-2016 Twitter, Inc.</p>
+                  <p class="p-text-citation">* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)  </p>
+
+              <p class="p-text-citation">
+                scrollify: </p>
+                  <p class="p-text-citation"> * The MIT License (MIT)</p>
+                  <p class="p-text-citation"> * Copyright (c) 2017 Luke Haas</p>
+
+
+                  <p class="p-text-citation">
+                    Jquery: </p>
+                      <p class="p-text-citation"> * Copyright JS Foundation and other contributors, https://js.foundation/
+                        </p>
+                      <p class="p-text-citation"> * This software consists of voluntary contributions made by many individuals. For exact contribution history, see the revision history
+                        available at https://github.com/jquery/jquery
+                      </p>
+                      <p class="p-text-citation">
+
+
+
          </div>
       </section>
-
-
-      <!-- footer///////// -->
 
       <footer>
          <nav class="single-nav footer-style">
@@ -66,7 +115,6 @@
             <li><a href="citations.html">Citations</a></li>
          </ul>
       </footer>
-
       <script src="javascript/hamburger.js"> </script>
       <script src="javascript/section-scroll.js" ></script>
    </body>
