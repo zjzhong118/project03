@@ -4,27 +4,37 @@
 
 .umi-bg{
   height: 80rem;
-  background:#BAD4E8;
+  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
   background-size: cover;
   display: table;
-  /*background-position: right;*/
   background-attachment: fixed;
 }
 
 .first-logo{
   height: 171rem;
   width: 100%;
-    background:#BAD4E8;
+  background:#a7cff0;
   background-size: cover;
   display: table;
   background-attachment: fixed;
 }
 
 
-.final-logo{
+.postpro-container{
   height: 171rem;
   width: 100%;
-    background:#BAD4E8;
+  background:#9eccf1;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+
+.final-logo3{
+  /*height: 10rem;*/
+  width: 100%;
+  background:#9ac7e8;
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -33,14 +43,14 @@
 /*font*/
 
 .umi-bg p{
-  font-family: "HindSiliguri-Light", sans-serif;
+  font-family: "HindSiliguri-Light",;
     max-device-width: 850px;
     margin: 0 auto;
     padding-bottom: 3rem;
-    /*color: white;*/
     margin-top: 5rem;
-
 }
+
+
 
 .logo-span{
   display: block;
@@ -51,15 +61,6 @@
     opacity: 0.7;
 }
 
-
-.text-left {
-
-    font-family: "HindSiliguri-Light";
-      max-device-width: 850px;
-      margin: 0 auto;
-      padding-bottom: 2rem;
-        text-align: left;
-}
 
 
 .caption-animation{
@@ -84,7 +85,7 @@
     max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
-    color: white;
+    
 }
 
 

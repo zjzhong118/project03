@@ -69,28 +69,38 @@ transition: color 0.5s linear;
 
 
 .title-text{
-  font-family: "basictitlefont", sans-serif;
+  font-family: "basictitlefont";
   color:  #5d9fcf;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
 
   /*margin-left: 10rem;*/
+}
+
+.text-left {
+
+    font-family: "HindSiliguri-Light";
+
+      margin: 0 auto;
+      padding-bottom: 2rem;
+      text-align: left;
+      color: black;
 }
 
 
 .nametitle {
   margin-top: 10rem;
   font-family: "basictitlefont", sans-serif;
-  color: white;
-  font-size: 35px;
+  color: #5d9fcf;
+  font-size: 45px;
   /*text-align: center;*/
   /*margin-left: 5rem;*/
 }
 
 
 .pro-date{
-  display:inline;
-  font-size: .5em;
+  display:inline-block;
+  font-size: .3em;
     color: white;
     margin-top: 1rem;
     font-style: oblique;
@@ -108,20 +118,19 @@ transition: color 0.5s linear;
     max-device-width: 850px;
     margin: 0 auto;
     padding-bottom: 3rem;
-    /*color: white;*/
     margin-top: 5rem;
     max-width: 100rem;
+
 
 }
 
 .p-role{
   font-family: "HindSiliguri-Light", sans-serif;
-    /*max-device-width: 40%;*/
     padding-bottom: 3rem;
     text-align: left;
-    font-size:15px;
+    font-size: 18px;
      font-weight: bold;
-    color: black;
+    color: #175a8e;
 
 
 

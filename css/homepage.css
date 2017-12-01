@@ -17,13 +17,13 @@
 .nametitle {
   font-family: "basictitlefont", sans-serif;
   color: #5d9fcf;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .nametitle span {
-	font-weight: 300px;
+
 	display: block;
-	font-size: .7em;
+	font-size: 35px;
   color: white;
   margin-top: 1rem;
   font-style: oblique;
@@ -106,7 +106,7 @@
 
 /*Video designer*/
 .video-producer .background-layer {
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -142,7 +142,7 @@
   .graphic-designer{
     /*height: 45rem;
     width: 100%;*/
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
     background-size: cover;
     background-attachment: fixed;
 
