@@ -6,7 +6,7 @@
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/animationbg.png");
   background-size: cover;
   display: table;
-  background-position: center;s
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -165,4 +165,10 @@ padding: 0;
 
 body .row{
   margin: 0;
+}
+
+@media (max-width: 500px)  {
+.first-bg{
+  height: 20rem;
+
 }

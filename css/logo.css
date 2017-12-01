@@ -1,7 +1,6 @@
 /*section//////*/
 
 
-
 .umi-bg{
   height: 80rem;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
@@ -103,21 +102,22 @@
 .umi-logo{
   	/* height: 27em;
     margin: 5em; */
-    max-device-width: 100%;
+    /*max-device-width: 80%;*/
     display: block;
-    max-height: 27em;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 20em;
+    /*margin-left: auto;*/
+    /*margin-right: 0;*/
+    margin: auto 0;
   }
 
   .umi-text-logo{
     /* width: 20em; */
     /* margin: 5em; */
-    max-device-width: 100%;
+    /*max-device-width: 100%;*/
     display: block;
-    max-height: 35em;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 25em;
+    margin: auto 0;
+
     /*padding-top: 10em;*/
   }
 
