@@ -1,6 +1,8 @@
 /*section//////*/
 
-
+.citation-bg{
+  background: #a7cff0;
+}
 .umi-bg{
   height: 80rem;
   background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");

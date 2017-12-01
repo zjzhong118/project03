@@ -47,6 +47,7 @@ body header {
 	text-decoration: none;
 	color: #b9d4e9;
 	padding: .6em 1em;
+	font-family: "HindSiligui-Light", sans-serif;
 }
 
 .menu li a:hover {
@@ -75,7 +76,7 @@ transition: color 0.5s linear;
 .glyphicon-menu-hamburger, .glyphicon-remove {
 	margin: 1em;
 	color: #333333;
-	font-size: 16pt;
+	font-size: 15pt;
 }
 
 @media (min-width: 500px)   {
@@ -120,6 +121,7 @@ transition: color 0.5s linear;
 	color: black;
 	padding-right:2rem;
 	font-size: 16pt;
+	/*font-family:Hind*/
 }
 
 
@@ -127,7 +129,7 @@ transition: color 0.5s linear;
 	left: 5%;
 }
 
-@media(min-device-width: 30em) {
+@media(min-width: 500px) {
 	.mobile-nav{
 		display: none;
 	}

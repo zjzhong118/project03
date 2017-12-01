@@ -2,11 +2,11 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Home page</title>
+      <title>Style Guide</title>
       <link href="css/main.css" rel="stylesheet">
       <link rel="stylesheet" href="css/nav-base.css">
       <link rel="stylesheet" href="css/nav-scroll-section.css">
-      <!-- <link rel="stylesheet" href="css/homepage.css"> -->
+      <link rel="stylesheet" href="css/homepage.css">
       <!-- <link rel="stylesheet" href="css/animatedcloud.css"> -->
       <link rel="stylesheet" href="css/styleguide.css">
       <script src="javascript/jquery-3.2.1.min.js"> </script>
@@ -28,26 +28,51 @@
             <ul>
                <li><a href="homepage.html">Home</a></li>
                <li><a href="animation.html">Video Production</a></li>
-              <li><a href="logodesign.html">Graphic Design</a></li>
+               <li><a href="logodesign.html">Graphic Design</a></li>
             </ul>
          </nav>
          <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
       </header>
+
       <div class="mobile-nav">
          <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
          <!-- <a href="homepage.html">
             <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
             </a> -->
-         <nav id="" class="menu" role="navigation">
+         <nav class="menu" role="navigation">
             <ul class="hamburger-style">
                <li><a href="homepage.html">Home</a></li>
                <li><a href="animation.html">Video Production</a></li>
-              <li><a href="logodesign.html">Graphic Design</a></li>
+               <li><a href="logodesign.html">Graphic Design</a></li>
             </ul>
          </nav>
       </div>
-
-
+      <div class="scroll-section-nav">
+         <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
+            <svg>
+               <circle class="landing active"/>
+            </svg>
+            <span class="description">
+            Top
+            </span>
+         </div>
+         <div class="nav-group" href="#video-producer" onclick="$.scrollify.move('#video-producer');">
+            <svg>
+               <circle class="video-producer" />
+            </svg>
+            <span class="description">
+            Video Production
+            </span>
+         </div>
+         <div class="nav-group" href="#graphic-designer" onclick="$.scrollify.move('#graphic-designer');">
+            <svg>
+               <circle class="graphic-designer" />
+            </svg>
+            <span class="description">
+            Graphic designer
+            </span>
+         </div>
+      </div>
       <section class="interactive_elements scroll-section" id="interactive_elements" data-section-name="interactive_elements">
 
         <div class="scroll-section-content">
@@ -162,11 +187,11 @@
                   <li><a href="logodesign.html">Graphic Design</a></li>
                 </ul>
              </nav>
-             <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
+             <!-- <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
 
           <div class="mobile-nav">
              <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
-            
+
              <nav id="" class="menu" role="navigation">
                 <ul class="hamburger-style">
                    <li><a href="homepage.html">Home</a></li>
@@ -174,7 +199,7 @@
                   <li><a href="logodesign.html">Graphic Design</a></li>
                 </ul>
              </nav>
-          </div>
+          </div> -->
      </div>
    </div>
 
@@ -190,7 +215,7 @@
           <h1 class="nametitle"> Colours <h1>
 
          <ul class="flex-container">
-            <li class="flex-item1"></li>
+            <!-- <li class="flex-item1"></li> -->
             <li class="flex-item2"></li>
             <li class="flex-item3"></li>
             <li class="flex-item4"></li>
@@ -274,7 +299,7 @@
          <nav class="single-nav footer-style">
          <ul>
             <li><a href="styleguide.html">Style Guide</a></li>
-            <li><a href="homepage.html">Citations</a></li>
+            <li><a href="citations.html">Citations</a></li>
          </ul>
       </footer>
       <script src="javascript/hamburger.js"> </script>
