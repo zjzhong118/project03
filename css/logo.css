@@ -101,15 +101,24 @@
   /*margin: 0 auto;*/
 }
 
+
 .umi-logo{
   	/* height: 27em;
     margin: 5em; */
     /*max-device-width: 80%;*/
     display: block;
-    max-height: 20em;
-    /*margin-left: auto;*/
+    max-height: 27em;
+    /*margin-left: 5rem;*/
     /*margin-right: 0;*/
-    margin: auto 0;
+  }
+  @media (max-width: 500px ){
+
+    .umi-logo{
+
+        display: block;
+        max-height: 17em;
+      
+      }
   }
 
   .umi-text-logo{
