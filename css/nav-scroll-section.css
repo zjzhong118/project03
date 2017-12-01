@@ -10,7 +10,7 @@
     z-index: 900;
 }
 
-@media (min-device-width: 480px) {
+@media (max-width: 500px) {
     .scroll-section-nav {
         display: none;
     }
@@ -81,7 +81,7 @@
     opacity: 0.5;
 }
 
-@media (max-device-width: 30rem) {
+@media (min-width: 500px) {
     .scroll-section-nav .nav-group:hover .description {
         display: none;
     }

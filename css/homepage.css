@@ -43,7 +43,7 @@
 }
 
 
-  @media (min-device-width: 30rem) {
+  @media (min-width: 500px) {
 .landing-img{
 		height: 100vh;
 		padding-top: 5rem;
@@ -73,7 +73,7 @@
   color: #96c4e7;
 }
 
-  @media (min-device-width: 60rem) {
+  @media (min-width: 500px)  {
 
 .button2 {
   	display: inline-block;
@@ -149,69 +149,18 @@
     }
 
 
-    /*#project h1{
-      font-family: "basictitlefont", sans-serif;
-      color: black;
-      font-size: 30px;
-      text-align: center;
-      margin: 0px;
-      display: table-cell;
-      vertical-align: middle;
+  .p-text-seemore{
+    font-family: "HindSiliguri-Light", sans-serif;
+      max-device-width: 850px;
+      margin: 0 auto;
+      padding-bottom: 0rem;
+      color: gray;
+      opacity: 0.2;
 
-    }
-
-
-    .gallery {
-    margin: 0;
-    position: relative;
-    margin-bottom: 2rem;
+  }
 
 
-    }
-    .gallery img{
-    	display: block;
-      width:100%;
-    }
-
-    .project-cap{
-    	position: absolute;
-    	z-index: 100;
-    	bottom: 0.2em;
-    	left: 0em;
-    	right: 0em;
-    	color: white;
-    	background: rgba(0,0,0,.6);
-    	padding-bottom: 3em;
-
-    }
-
-    #project figure {
-      width: 30%;
-      height: auto;
-      min-device-width: 20rem;
-      margin: 1rem;
-    }
-
-
-    #project {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    #project .project-covers{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }*/
-
-
-
-
-
-      @media (min-device-width: 60rem) {
+      @media (min-width: 500px)   {
       	.gallery {
       		width: 33.3333334%;
       		overflow: hidden;
@@ -233,7 +182,7 @@
 
 }
 
-    @media (min-device-width: 37rem) {
+    @media (min-width: 500px)   {
       .gallery {
         width: 50%;
         float: left;

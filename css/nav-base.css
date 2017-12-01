@@ -78,7 +78,7 @@ transition: color 0.5s linear;
 	font-size: 16pt;
 }
 
-@media(min-device-width: 30rem) {
+@media (min-width: 500px)   {
 	header .mobile-nav-trigger {
 		display: none;
 	}
@@ -87,7 +87,7 @@ transition: color 0.5s linear;
 	}
 }
 
-@media(max-device-width: 30rem) {
+@media (max-width: 500px)   {
 	header .single-nav.menu {
 		display: none;
 	}

@@ -20,7 +20,7 @@
   width: 50%;
   height: auto;
   top: 20em;
-  left: 0em;
+  left: 50em;
   opacity: 0.7;
 
 
@@ -30,18 +30,18 @@
   animation: 10s shake linear infinite;
 }
 
-.landing .animated-cloud2 {
+/*.landing .animated-cloud2 {
   width: 50%;
   height: auto;
   top: 0em;
-  left: 20em;
-  /*animation: 10s shake linear infinite;*/
+  left: 15em;
+  animation: 10s shake linear infinite;
   opacity: 0.5;
 }
 
 .landing .animated-cloud2.active {
   animation: 10s shake linear infinite;
-}
+}*/
 
 @keyframes shake {
   25% {
