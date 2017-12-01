@@ -1,11 +1,13 @@
 
 .landing .cloud-container {
-  width: 80%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   text-align: center;
   float: left;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .landing .cloud-container img {

@@ -59,7 +59,7 @@
 
 .moodboard-container p {
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 850px;
+    max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
     color: gray;
@@ -68,7 +68,7 @@
 
   .first-bg p{
     font-family: "HindSiliguri-Light", sans-serif;
-      max-width: 850px;
+      max-device-width: 850px;
       margin: 0 auto;
       padding-bottom: 3rem;
       color: white;
@@ -79,7 +79,7 @@
 
 .postpro-container p{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 850px;
+    max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
     color: white;

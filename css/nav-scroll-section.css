@@ -10,6 +10,12 @@
     z-index: 900;
 }
 
+@media (min-device-width: 480px) {
+    .scroll-section-nav {
+        display: none;
+    }
+}
+
 .scroll-section-nav svg {
     width: 2em;
     height: 2em;
@@ -57,7 +63,6 @@
     padding-bottom: 1rem;
     display: none;
     color: white;
-
 }
 
 .scroll-section-nav .nav-group {
@@ -73,5 +78,11 @@
 
 .scroll-section-nav .nav-group:hover .description {
     display: initial;
-      opacity: 0.5;
+    opacity: 0.5;
+}
+
+@media (max-device-width: 30rem) {
+    .scroll-section-nav .nav-group:hover .description {
+        display: none;
+    }
 }

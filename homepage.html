@@ -1,148 +1,130 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-
-    <meta charset="utf-8">
-    <title>Home page</title>
-
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nav-base.css">
-    <link rel="stylesheet" href="css/nav-scroll-section.css">
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/animatedcloud.css">
-    <script src="javascript/jquery-3.2.1.min.js"> </script>
-    <script src="javascript/jquery.scrollify.min.js" ></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-
-  <body>
-
-  <header>
-    <a href="homepage.html">
-      <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-    </a>
-    <nav id="single-nav" class="single-nav menu"role="navigation">
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="homepage.html">About</a></li>
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </nav>
-    <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
-  </header>
-
-<div class="mobile-nav">
-    <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
-    <!-- <a href="homepage.html">
-        <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-      </a> -->
-      <nav id="" class="menu" role="navigation">
-          <ul class="hamburger-style">
-              <li><a href="homepage.html">Home</a></li>
-              <li><a href="homepage.html">About</a></li>
-              <li><a href="#">Projects</a></li>
-          </ul>
-      </nav>
-  </div>
-
-<div class="scroll-section-nav">
-  <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
-    <svg>
-      <circle class="landing active"/>
-    </svg>
-    <span class="description">
-        Top
-    </span>
-  </div>
-  <div class="nav-group" href="#project" onclick="$.scrollify.move('#project');">
-    <svg>
-      <circle class="project" />
-    </svg>
-    <span class="description">
-        Project
-    </span>
-  </div>
-  <div class="nav-group" href="#about" onclick="$.scrollify.move('#about');">
-    <svg>
-      <circle class="about" />
-    </svg>
-    <span class="description">
-        About Me
-    </span>
-  </div>
-</div>
-
-<section class="landing scroll-section" id="landing" data-section-name="landing">
-  <div class="cloud-container">
-        <img class="animated-cloud1 active" src="img/floatingcloud1.png"/>
-        <img class="animated-cloud2 active" src="img/floatingcloud2.png"/>
-    </div>
-<!--<div class="landing-img">-->
- <h1 class="nametitle">Christine Zhong <span> Graphic Designer / Video producer</span>
-  </h1>
-  <a href="#project" class="button2 .button2-accent">See the Projects</a>
-<!--</div>-->
-</section>
+   <head>
+      <meta charset="utf-8">
+      <title>Home page</title>
+      <link href="css/main.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/nav-base.css">
+      <link rel="stylesheet" href="css/nav-scroll-section.css">
+      <link rel="stylesheet" href="css/homepage.css">
+      <link rel="stylesheet" href="css/animatedcloud.css">
+      <script src="javascript/jquery-3.2.1.min.js"> </script>
+      <script src="javascript/jquery.scrollify.min.js" ></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+   </head>
+   <body>
+      <header>
+         <a href="homepage.html">
+         <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+         </a>
+         <nav id="single-nav" class="single-nav menu"role="navigation">
+            <ul>
+               <li><a href="homepage.html">Home</a></li>
+               <li><a href="animation.html">Video</a></li>
+               <li><a href="logodesign.html">Graphic</a></li>
+            </ul>
+         </nav>
+         <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
+      </header>
+      <div class="mobile-nav">
+         <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
+         <!-- <a href="homepage.html">
+            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+            </a> -->
+         <nav id="" class="menu" role="navigation">
+            <ul class="hamburger-style">
+               <li><a href="homepage.html">Home</a></li>
+               <li><a href="animation.html">Video</a></li>
+               <li><a href="logodesign.html">Graphic</a></li>
+            </ul>
+         </nav>
+      </div>
+      <div class="scroll-section-nav">
+         <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
+            <svg>
+               <circle class="landing active"/>
+            </svg>
+            <span class="description">
+            Top
+            </span>
+         </div>
+         <div class="nav-group" href="#video-producer" onclick="$.scrollify.move('#video-producer');">
+            <svg>
+               <circle class="video-producer" />
+            </svg>
+            <span class="description">
+            Video designer
+            </span>
+         </div>
+         <div class="nav-group" href="#graphic-designer" onclick="$.scrollify.move('#graphic-designer');">
+            <svg>
+               <circle class="graphic-designer" />
+            </svg>
+            <span class="description">
+            Graphic designer
+            </span>
+         </div>
+      </div>
+      <section class="landing scroll-section" data-section-name="landing">
+         <div class="scroll-section-content">
+            <div class="cloud-container">
+               <img class="animated-cloud1 active" src="img/floatingcloud1.png"/>
+               <img class="animated-cloud2 active" src="img/floatingcloud2.png"/>
+            </div>
+            <!--<div class="landing-img">-->
+            <h1 class="nametitle">Christine Zhong <span> Graphic Designer / Video producer</span>
+            </h1>
 
 
+            <p class="p-text">
+               I am passionate and confident on working in animation, video production, and  UI/UX design industries.
+               As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
+            </p>
 
-<section id="project" class="scroll-section" data-section-name="project">
-  <h2 class="title-text" >
-    Project
-  </h2>
-  <div class="project-covers">
-    <figure class="gallery">
-      <img src="img/logocover.jpg" alt="portfolio item" class="project-img">
-      <figcaption class="project-cap">
-        <p>LOGO DESIGN</p>
-        <a href="logodesign.html" class="button">Project details</a>
-      </figcaption>
-    </figure>
-
-
-    <figure class="gallery">
-      <img src="img/videocover.jpg" alt="portfolio" class="project-img">
-      <figcaption class="project-cap">
-        <p>VIDEO PRODUCTION</p>
-        <a href="animation.html" class="button">Project details</a>
-      </figcaption>
-    </figure>
-  </div>
-
-
-</section>
-
-
-<section id="about" class="scroll-section" data-section-name="about">
-    <h1>My Story</h1>
-    <p class="p-text"> I am passionate and confident on working in animation, video production, and  UI/UX design industries.
-
-As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
-</p>
-
-</section>
-
-
-<footer>
-
-    <nav class="single-nav footer-style">
-        <ul>
+            <p class="p-text">
+              SCROLL DOWN TO SEE MORE
+            </p>
+            <!--</div>-->
+         </div>
+      </section>
+      <section class="scroll-section video-producer" data-section-name="video-producer">
+        <div class="background-layer">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://player.vimeo.com/video/244485649?autoplay=1&loop=1&autopause=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div class="video-cover">
+            <img src="img/video-bg.png">
+          </div>
+          <div class="overlay-filter-transparent">
+          </div>
+        </div>
+        <div class="scroll-section-content">
+          <h1 class="nametitle">VIDEO PRODUCER</h1>
+            <a href="animation.html" class="button2 .button2-accent">See the Projects</a>
+        </div>
+      </section>
+      <section class="graphic-designer scroll-section" data-section-name="graphic-designer">
+         <div class="scroll-section-content">
+            <h2 class="nametitle" >
+               GRAPHIC DESIGNER
+            </h2>
+            <a href="logodesign.html" class="button2 .button2-accent">See the Projects</a>
+         </div>
+      </section>
+      <footer>
+         <nav class="single-nav footer-style">
+         <ul>
             <li><a href="styleguide.html">Style Guide</a></li>
             <li><a href="homepage.html">Citations</a></li>
-        </ul>
-
-
-</footer>
-
-
-    <script src="javascript/hamburger.js"> </script>
-    <script src="javascript/homepage.js" ></script>
-</body>
+         </ul>
+      </footer>
+      <script src="javascript/hamburger.js"> </script>
+      <script src="javascript/section-scroll.js" ></script>
+   </body>
 </html>

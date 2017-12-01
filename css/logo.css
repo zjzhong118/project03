@@ -24,7 +24,7 @@
 .final-logo{
   height: 171rem;
   width: 100%;
-  background:#BAD4E8;
+    background:#BAD4E8;
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -34,7 +34,7 @@
 
 .umi-bg p{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 850px;
+    max-device-width: 850px;
     margin: 0 auto;
     padding-bottom: 3rem;
     /*color: white;*/
@@ -55,7 +55,7 @@
 .text-left {
 
     font-family: "HindSiliguri-Light";
-      max-width: 850px;
+      max-device-width: 850px;
       margin: 0 auto;
       padding-bottom: 2rem;
         text-align: left;
@@ -69,7 +69,7 @@
 }
 
 
-.row h2{
+.subtitle{
   margin-top: 8rem;
   font-family: "basictitlefont", sans-serif;
   color: #5d9fcf;
@@ -78,16 +78,10 @@
   /*text-align: right;*/
 }
 
-.row h1{
-  margin-top: 10rem;
-  font-family: "basictitlefont", sans-serif;
-  color: white;
-  font-size: 35px;
-}
 
 .postpro-container p{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 850px;
+    max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
     color: white;
@@ -106,14 +100,14 @@
 }
 
 .introduction-umi{
-  max-width: 50em;
+  max-device-width: 50em;
   /*margin: 0 auto;*/
 }
 
 .umi-logo{
   	/* height: 27em;
     margin: 5em; */
-    max-width: 100%;
+    max-device-width: 100%;
     display: block;
     max-height: 27em;
     margin-left: auto;
@@ -123,7 +117,7 @@
   .umi-text-logo{
     /* width: 20em; */
     /* margin: 5em; */
-    max-width: 100%;
+    max-device-width: 100%;
     display: block;
     max-height: 35em;
     margin-left: auto;
@@ -147,7 +141,7 @@
   }
     .p-text{
       font-family: "HindSiliguri-Light", sans-serif;
-        /*max-width: 40%;*/
+        /*max-device-width: 40%;*/
         margin:0 auto;
         padding-bottom: 3rem;
         text-align: left;

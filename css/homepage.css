@@ -43,7 +43,7 @@
 }
 
 
-  @media (min-width: 500px) {
+  @media (min-device-width: 30rem) {
 .landing-img{
 		height: 100vh;
 		padding-top: 5rem;
@@ -73,7 +73,7 @@
   color: #96c4e7;
 }
 
-  @media (min-width: 500px) {
+  @media (min-device-width: 60rem) {
 
 .button2 {
   	display: inline-block;
@@ -104,13 +104,44 @@
 
 
 
+/*Video designer*/
+.video-producer .background-layer {
+    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video-producer .background-layer .embed-responsive {
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+}
+
+.video-producer .background-layer .video-cover {
+  min-device-width: 100%;
+  min-height: 100%;
+  display: none;
+}
+
+@media (orientation: portrait) {
+  .video-producer .background-layer .embed-responsive {
+    display: none;
+  }
+
+  .video-producer .background-layer .video-cover {
+    display: block;
+  }
+}
+
+
 
   /*///////////porject///////////*/
 
 
-  #project{
-    height: 45rem;
-    width: 100%;
+  .graphic-designer{
+    /*height: 45rem;
+    width: 100%;*/
     background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/could2.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -118,7 +149,7 @@
     }
 
 
-    #project h1{
+    /*#project h1{
       font-family: "basictitlefont", sans-serif;
       color: black;
       font-size: 30px;
@@ -157,7 +188,7 @@
     #project figure {
       width: 30%;
       height: auto;
-      min-width: 20rem;
+      min-device-width: 20rem;
       margin: 1rem;
     }
 
@@ -174,13 +205,13 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-    }
+    }*/
 
 
 
 
 
-      @media (min-width:500px) {
+      @media (min-device-width: 60rem) {
       	.gallery {
       		width: 33.3333334%;
       		overflow: hidden;
@@ -197,12 +228,12 @@
 
 
 .item{
-  max-width: 20rem;
+  max-device-width: 20rem;
 
 
 }
 
-    @media (min-width: 500px) {
+    @media (min-device-width: 37rem) {
       .gallery {
         width: 50%;
         float: left;

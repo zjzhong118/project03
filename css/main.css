@@ -105,7 +105,7 @@ transition: color 0.5s linear;
 
 .p-text{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-width: 850px;
+    max-device-width: 850px;
     margin: 0 auto;
     padding-bottom: 3rem;
     /*color: white;*/
@@ -115,7 +115,7 @@ transition: color 0.5s linear;
 
 .p-role{
   font-family: "HindSiliguri-Light", sans-serif;
-    /*max-width: 40%;*/
+    /*max-device-width: 40%;*/
     padding-bottom: 3rem;
     text-align: left;
     font-size:15px;
@@ -129,11 +129,11 @@ transition: color 0.5s linear;
 
 
 
-section:not([id]) {
+/* section:not([id]) {
   margin: 1em 0;
   padding: 0.5em 0;
   border-top: 1px solid #333;
-}
+} */
 
 section h3 {
   margin-bottom: 0;
@@ -150,6 +150,25 @@ section code {
   margin-top: 1em;
 }
 
+/* background */
+.background-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+.background-layer .overlay-filter-tranparent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
 
 
 .flex-container {
@@ -260,11 +279,14 @@ section code {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.scroll-section-content {
   padding: 6rem;
 }
 
-@media(min-width: 30rem) {
-  .scroll-section {
+@media(min-device-width: 30rem) {
+  .scroll-section-content {
     padding-left: 10rem;
   }
 }
@@ -277,7 +299,7 @@ section code {
 
 
   /* bootstrap add-on */
-@media(min-width: 992px) {
+@media(min-device-width: 992px) {
   .col-md-offset-1-5 {
     margin-left: 12.5%;
   }

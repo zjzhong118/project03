@@ -1,235 +1,175 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-
-    <meta charset="utf-8">
-    <title>Home page</title>
-
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nav-base.css">
-    <link rel="stylesheet" href="css/nav-scroll-section.css">
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/animatedcloud.css">
-    <script src="javascript/jquery-3.2.1.min.js"> </script>
-    <script src="javascript/jquery.scrollify.min.js" ></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-
-  <body>
-
-  <header>
-    <a href="homepage.html">
-      <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-    </a>
-    <nav id="single-nav" class="single-nav menu"role="navigation">
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="homepage.html">About</a></li>
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </nav>
-    <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
-  </header>
-
-<div class="mobile-nav">
-    <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
-    <a href="homepage.html">
-        <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-      </a>
-      <nav id="single-nav" class="single-nav menu hidden-xs"role="navigation">
-          <ul>
-              <li><a href="homepage.html">Home</a></li>
-              <li><a href="homepage.html">About</a></li>
-              <li><a href="#">Projects</a></li>
-          </ul>
-      </nav>
-  </div>
-    <div class="home-section-nav">
-      <a href="#interactive_elements" onclick="$.scrollify.move('#landing');">
-        <svg>
-          <circle class="landing active"/>
-        </svg>
-        <span class="description">
-            Interactive Elements
-        </span>
-      </a>
-      <a href="#text_elements" onclick="$.scrollify.move('#project');">
-        <svg>
-          <circle class="project" />
-        </svg>
-        <span class="description">
-            Text Elements
-        </span>
-      </a>
-      <a href="#combined_elements" onclick="$.scrollify.move('#about');">
-        <svg>
-          <circle class="about" />
-        </svg>
-        <span class="description">
-            Combined Elements
-        </span>
-      </a>
-    </div>
-
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section class="home-section" id="interactive_elements">
-
-      <!-- Default Button styling section -->
-    <h1>Portfolio Style Guide</h1>
-        <h2>Navigation Button</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a class="button" href="#" &gt;Read more>&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-
-        <a class="button" href="#">Read more> </a>
-                </nav>
-
-
-
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-
-      <section>
-        <h2>Headings</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.title-text</p>
-        <h3>Sample code:</h3>
-        <code>&lt;h1 class="title-text"&gt; Title &lt;/h1&gt;</code>
-        <h3>Rendered element:</h3>
-        <h1 class="title-text"> Title</h1>
-      </section>
-
-      <section>
-        <h2>Paragraphs</h2>
-        <h3>CSS selector:</h3>
-        <p>.p-text</p>
-        <h3>Sample code:</h3>
-        <code>&lt;h1 class="p-text"&gt; This is a paragraph &lt;/p&gt;</code>
-        <h3>Rendered element:</h3>
-        <p class="p-text">I am passionate and confident on working in animation, video production, and  UI/UX design industries.
-
-    As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.</p>
-      </section>
-
-
-    </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-
-
-
-
-        <nav>
-          <a href="homepage.html">
+   <head>
+      <meta charset="utf-8">
+      <title>Home page</title>
+      <link href="css/main.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/nav-base.css">
+      <link rel="stylesheet" href="css/nav-scroll-section.css">
+      <link rel="stylesheet" href="css/homepage.css">
+      <link rel="stylesheet" href="css/animatedcloud.css">
+      <link rel="stylesheet" href="css/styleguide.css">
+      <script src="javascript/jquery-3.2.1.min.js"> </script>
+      <script src="javascript/jquery.scrollify.min.js" ></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+   </head>
+   <body>
+      <header>
+         <a href="homepage.html">
+         <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+         </a>
+         <nav id="single-nav" class="single-nav menu"role="navigation">
+            <ul>
+               <li><a href="homepage.html">Home</a></li>
+               <li><a href="animation.html">Video</a></li>
+               <li><a href="logodesign.html">Graphic</a></li>
+            </ul>
+         </nav>
+         <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
+      </header>
+      <div class="mobile-nav">
+         <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
+         <!-- <a href="homepage.html">
             <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-          </a>
-          <nav id="single-nav" class="single-nav menu"role="navigation">
-              <ul>
+            </a> -->
+         <nav id="" class="menu" role="navigation">
+            <ul class="hamburger-style">
+               <li><a href="homepage.html">Home</a></li>
+               <li><a href="animation.html">Video</a></li>
+               <li><a href="logodesign.html">Graphic</a></li>
+            </ul>
+         </nav>
+      </div>
+      <div class="home-section-nav">
+         <a href="#interactive_elements" onclick="$.scrollify.move('#landing');">
+            <svg>
+               <circle class="landing active"/>
+            </svg>
+            <span class="description">
+            Interactive Elements
+            </span>
+         </a>
+         <a href="#text_elements" onclick="$.scrollify.move('#project');">
+            <svg>
+               <circle class="project" />
+            </svg>
+            <span class="description">
+            Text Elements
+            </span>
+         </a>
+         <a href="#combined_elements" onclick="$.scrollify.move('#about');">
+            <svg>
+               <circle class="about" />
+            </svg>
+            <span class="description">
+            Combined Elements
+            </span>
+         </a>
+      </div>
+      <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section class="scroll-section" id="interactive_elements">
+         <!-- Default Button styling section -->
+         <h1>Portfolio Style Guide</h1>
+         <h2>Navigation Button</h2>
+         <h3>CSS selector:</h3>
+         <p>.button-nav</p>
+         <h3>Sample code:</h3>
+         <code>&lt;a class="button" href="#" &gt;Read more>&lt;/a&gt;</code>
+         <h3>Rendered element:</h3>
+         <a class="button" href="#">Read more> </a>
+         </nav>
+      </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
+      <!-- TEXT ELEMENTS SECTION // -->
+      <section id="text_elements">
+         <section>
+            <h2>Headings</h2>
+            <h3>CSS selector:</h3>
+            <p>.title-text</p>
+            <h3>Sample code:</h3>
+            <code>&lt;h1 class="title-text"&gt; Title &lt;/h1&gt;</code>
+            <h3>Rendered element:</h3>
+            <h1 class="title-text"> Title</h1>
+         </section>
+         <section>
+            <h2>Paragraphs</h2>
+            <h3>CSS selector:</h3>
+            <p>.p-text</p>
+            <h3>Sample code:</h3>
+            <code>&lt;h1 class="p-text"&gt; This is a paragraph &lt;/p&gt;</code>
+            <h3>Rendered element:</h3>
+            <p class="p-text">I am passionate and confident on working in animation, video production, and  UI/UX design industries.
+               As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
+            </p>
+         </section>
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+      <!-- COMBINED ELEMENTS SECTION // -->
+      <section id="combined_elements">
+      <section>
+         <h2>Main Navigation</h2>
+         <nav>
+            <a href="homepage.html">
+            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
+            </a>
+            <nav id="single-nav" class="single-nav menu"role="navigation">
+               <ul>
                   <li><a href="homepage.html">Home</a></li>
                   <li><a href="homepage.html">About</a></li>
                   <li><a href="#">Projects</a></li>
-              </ul>
-          </nav>
-        </nav>
-
-
-
+               </ul>
+            </nav>
+         </nav>
       </section>
-
-
-  <section>
-      <h2>Colours</h2>
-
-      <ul class="flex-container">
-  <li class="flex-item1"></li>
-  <li class="flex-item2"></li>
-  <li class="flex-item3"></li>
-  <li class="flex-item4"></li>
-    <li class="flex-item5"></li>
-
-</ul>
-
-    </section>
-
-
-
       <section>
-        <h2>Project Listing</h2>
-
-
-        <section id="project-styleguide" data-section-name="project-styleguide">
-          <h2 class="title-text">
-            Project
-          </h2>
-          <div class="project-covers">
-            <figure class="gallery">
-              <img src="img/logocover.jpg" alt="portfolio item" class="project-img">
-              <figcaption class="project-cap">
-                <p>LOGO DESIGN</p>
-                <a href="logodesign.html" class="button">Project details</a>
-              </figcaption>
-            </figure>
-
-
-            <figure class="gallery">
-              <img src="img/videocover.jpg" alt="portfolio" class="project-img">
-              <figcaption class="project-cap">
-                <p>VIDEO PRODUCTION</p>
-                <a href="animation.html" class="button">Project details</a>
-              </figcaption>
-            </figure>
-          </div>
-
-
-
-
-
+         <h2>Colours</h2>
+         <ul class="flex-container">
+            <li class="flex-item1"></li>
+            <li class="flex-item2"></li>
+            <li class="flex-item3"></li>
+            <li class="flex-item4"></li>
+            <li class="flex-item5"></li>
+         </ul>
       </section>
-
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
-
-
-    <footer>
-
-        <nav class="single-nav footer-style">
-            <ul>
-                <li><a href="styleguide.html">Style Guide</a></li>
-                <li><a href="homepage.html">Citations</a></li>
-            </ul>
-
-
-    </footer>
-
-
-        <script src="javascript/hamburger.js"> </script>
-        <script src="javascript/homepage.js" ></script>
-    </body>
-    </html>
+      <section>
+         <h2>Project Listing</h2>
+         <section id="project-styleguide" data-section-name="project-styleguide">
+            <h2 class="title-text">
+               Project
+            </h2>
+            <div class="project-covers">
+               <figure class="gallery">
+                  <img src="img/logocover.jpg" alt="portfolio item" class="project-img">
+                  <figcaption class="project-cap">
+                     <p>LOGO DESIGN</p>
+                     <a href="logodesign.html" class="button">Project details</a>
+                  </figcaption>
+               </figure>
+               <figure class="gallery">
+                  <img src="img/videocover.jpg" alt="portfolio" class="project-img">
+                  <figcaption class="project-cap">
+                     <p>VIDEO PRODUCTION</p>
+                     <a href="animation.html" class="button">Project details</a>
+                  </figcaption>
+               </figure>
+            </div>
+         </section>
+      </section>
+      <!-- // COMBINED ELEMENTS SECTION -->
+      <footer>
+         <nav class="single-nav footer-style">
+         <ul>
+            <li><a href="styleguide.html">Style Guide</a></li>
+            <li><a href="homepage.html">Citations</a></li>
+         </ul>
+      </footer>
+      <script src="javascript/hamburger.js"> </script>
+      <script src="javascript/section-scroll.js" ></script>
+   </body>
+</html>
