@@ -67,7 +67,6 @@ transition: color 0.5s linear;
 }
 
 
-
 .title-text{
   font-family: "basictitlefont";
   color:  #5d9fcf;
@@ -76,6 +75,15 @@ transition: color 0.5s linear;
 
   /*margin-left: 10rem;*/
 }
+
+.figure-cap{
+  font-size: .9em;
+      color: white;
+      margin-top: 1rem;
+      font-style: oblique;
+      opacity: 0.6;
+}
+
 
 
 .nametitle {
@@ -86,11 +94,18 @@ transition: color 0.5s linear;
   /*text-align: center;*/
   /*margin-left: 5rem;*/
 }
+.subnametitle {
+  font-family: "basictitlefont", sans-serif;
+  color: #5d9fcf;
+  font-size: 40px;
+  margin-top: 5rem;
+
+}
 
 
 .pro-date{
   display:inline-block;
-  font-size: .3em;
+  font-size: .4em;
     color: white;
     margin-top: 1rem;
     font-style: oblique;
@@ -105,11 +120,11 @@ transition: color 0.5s linear;
 
 .p-text{
   font-family: "HindSiliguri-Light", sans-serif;
-    max-device-width: 850px;
+    /*max-device-width: 850px;*/
     margin: 0 auto;
     padding-bottom: 3rem;
     margin-top: 5rem;
-    max-width: 100rem;
+    max-width: 200rem;
 
 
 }
@@ -120,7 +135,7 @@ transition: color 0.5s linear;
     text-align: left;
     font-size: 18px;
      font-weight: bold;
-    color: #175a8e;
+     color: #175a8e;
 
 
 

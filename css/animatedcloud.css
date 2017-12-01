@@ -27,7 +27,7 @@
 }
 
 .landing .animated-cloud1.active {
-  animation: 10s shake linear infinite;
+  animation: 7s shake linear infinite;
 }
 
 /*.landing .animated-cloud2 {

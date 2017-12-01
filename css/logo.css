@@ -42,6 +42,8 @@
 }
 /*font*/
 
+
+
 .umi-bg p{
   font-family: "HindSiliguri-Light",;
     max-device-width: 850px;
@@ -64,20 +66,13 @@
 
 
 .caption-animation{
-  color: gray;
+  color: white;
   font-size: 12px;
   font-family: sans-serif;
+  text-align: right;
+  opacity: .5;
 }
 
-
-.subtitle{
-  margin-top: 8rem;
-  font-family: "basictitlefont", sans-serif;
-  color: #5d9fcf;
-  font-size: 25px;
-  /*margin-right: 5rem;*/
-  /*text-align: right;*/
-}
 
 
 .postpro-container p{
@@ -85,7 +80,7 @@
     max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
-    
+
 }
 
 
@@ -148,15 +143,6 @@
         text-align: left;
     }
 
-    .nametitle-umi {
-      margin-top: 10rem;
-      margin: 0 auto;
-      font-family: "basictitlefont", sans-serif;
-      color: #5d9fcf;
-      font-size: 35px;
-      text-align: center;
-      /*margin-left: 10rem;*/
-    }
 
 
     /* Setting up our grid */
