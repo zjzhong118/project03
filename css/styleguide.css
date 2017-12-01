@@ -1,5 +1,45 @@
 section:not([id]) {
   margin: 1em 0;
-  padding: 0.5em 0;
+  /*padding: 0.5em 0;*/
   border-top: 1px solid #333;
+}
+
+.interactive_elements{
+  width: 100%;
+  /*background:#a7cff0;*/
+  text-align: left;
+}
+
+.text_elements {
+  text-align: left;
+}
+.combined_elements{
+  text-align: left;
+}
+
+.projectlisting{
+  text-align: left;
+}
+
+.umi-logo{
+
+  max-device-width: 100%;
+  display: block;
+  max-height: 27em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sketch3{
+  padding-top: 4rem;
+  width:100%;
+}
+
+
+.caption-pic{
+  color: gray;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: right;
 }

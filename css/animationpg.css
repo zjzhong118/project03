@@ -94,10 +94,10 @@
     max-device-width: 850px;
     margin: 0 auto;
     padding:1rem;
-    color: white;
+    color: gray;
 }
 
-.caption-animation{
+.caption-pic{
   color: gray;
   font-size: 12px;
   font-family: sans-serif;
@@ -105,12 +105,14 @@
 }
 
 .ref-t{
-font-family: "HindSiliguri-Light", sans-serif;
+
   /*max-device-width: 850px;*/
-  text-align: left;
-  margin: 0 auto;
-  padding:1rem;
-  color: white;
+  font-family: "HindSiliguri-Light", sans-serif;
+    max-device-width: 850px;
+    margin: 0 auto;
+    padding:1rem;
+    color: gray;
+    text-align: left;
 }
 
 
