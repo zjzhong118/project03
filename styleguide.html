@@ -1,300 +1,1 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Style Guide</title>
-      <link href="css/main.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/nav-base.css">
-      <link rel="stylesheet" href="css/nav-scroll-section.css">
-      <link rel="stylesheet" href="css/homepage.css">
-      <!-- <link rel="stylesheet" href="css/animatedcloud.css"> -->
-      <link rel="stylesheet" href="css/styleguide.css">
-      <script src="javascript/jquery-3.2.1.min.js"> </script>
-      <script src="javascript/jquery.scrollify.min.js" ></script>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-   </head>
-   <body>
-      <header>
-         <a href="homepage.html">
-         <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-         </a>
-         <nav id="single-nav" class="single-nav menu"role="navigation">
-            <ul>
-               <li><a href="homepage.html">Home</a></li>
-               <li><a href="animation.html">Video Production</a></li>
-               <li><a href="logodesign.html">Graphic Design</a></li>
-            </ul>
-         </nav>
-         <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">
-      </header>
-
-      <div class="mobile-nav">
-         <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>
-         <!-- <a href="homepage.html">
-            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-            </a> -->
-         <nav class="menu" role="navigation">
-            <ul class="hamburger-style">
-               <li><a href="homepage.html">Home</a></li>
-               <li><a href="animation.html">Video Production</a></li>
-               <li><a href="logodesign.html">Graphic Design</a></li>
-            </ul>
-         </nav>
-      </div>
-      <div class="scroll-section-nav">
-         <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">
-            <svg>
-               <circle class="landing active"/>
-            </svg>
-            <span class="description">
-            Top
-            </span>
-         </div>
-         <div class="nav-group" href="#video-producer" onclick="$.scrollify.move('#video-producer');">
-            <svg>
-               <circle class="video-producer" />
-            </svg>
-            <span class="description">
-            Video Production
-            </span>
-         </div>
-         <div class="nav-group" href="#graphic-designer" onclick="$.scrollify.move('#graphic-designer');">
-            <svg>
-               <circle class="graphic-designer" />
-            </svg>
-            <span class="description">
-            Graphic designer
-            </span>
-         </div>
-      </div>
-      <section class="interactive_elements scroll-section" id="interactive_elements" data-section-name="interactive_elements">
-
-        <div class="scroll-section-content">
-
-       <!-- Default Button styling section -->
-         <div class="row">
-            <div class="col-md-12  col-xs-12">
-              <h1 class="nametitle">  INTERACTIVE ELEMENTS SECTION</h1>
-            </div>
-                <div class="col-md-6  col-xs-12">
-
-         <h1 class="nametitle"> <span class="title-span">Text Button</span></h1>
-         <p class="p-role">CSS selector:</p>
-         <p class="p-text">.menu li a </p>
-         <p class="p-role">Sample code:</p>
-         <code>&lt;li&gt; href="#"&gt;Graphic Design>&lt;/a&gt;/li&gt;</code>
-
-         <p class="p-role">Rendered element:</p>
-         <a class="button" href="#">Graphic Design </a>
-       </div>
-         <div class="col-md-6  col-xs-12">
-
-     <h1 class="nametitle"> <span class="title-span">Button</span></h1>
-     <p class="p-role">CSS selector:</p>
-     <p class="p-text">.button2</p>
-     <p class="p-role">Sample code:</p>
-     <code> &lt;a href="#" class="button2 .button2-accent"&gt;See the Project&lt;/a&gt;</code>
-      <p class="p-role">Rendered element:</p>
-       <a href="#" class="button2 .button2-accent">See the Project</a>
-     </nav>
-   </div>
- </div>
-      </section>
-      <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-      <!-- TEXT ELEMENTS SECTION // -->
-
-        <section class="text_elements scroll-section" id="text_elements" data-section-name="text_elements">
-          <div class="scroll-section-content">
-
-            <div class="row">
-               <div class="col-md-12  col-xs-12">
-            <h1 class="nametitle"> TEXT ELEMENTS SECTION<h1>
-            </div>
-            <div class="col-md-6  col-xs-12">
-            <h1 class="nametitle"> <span class="title-span">Headings:</span></h1>
-            <p class="p-role">CSS selector:</p>
-            <p>.nametitle</p>
-            <p>.subnametitle</p>
-            <p class="p-role">Sample code:</p>
-            <code>&lt;h1 class="nametitle"&gt; Title &lt;/h1&gt;</code>
-            <code> &lt;h2 class="subnametitle"&gt; SubTitle &lt;/h2&gt;</code>
-            <p class="p-role">Rendered element:</p>
-            <h1 class="nametitle"> Title</h1>
-            <h2 class="subnametitle">subtitle  </h2>
-          </div>
-            <div class="col-md-6  col-xs-12">
-            <h1 class="nametitle"> <span class="title-span">Paragraph:</span></h1>
-
-            <p class="p-role">CSS selector:</p>
-            <p>.p-text</p>
-            <p class="p-role">Sample code:</p>
-            <code>&lt;h1 class="p-text"&gt; This is a paragraph &lt;/p&gt;</code>
-            <p class="p-role">Rendered element:</p>
-            <p class="p-text">I am passionate and confident on working in animation, video production, and  UI/UX design industries.
-               As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
-               I am passionate and confident on working in animation, video production, and  UI/UX design industries.
-               AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.
-               </p>
-          </div>
-            <div class="col-md-6  col-xs-12">
-            <h1 class="nametitle"> <span class="title-span">caption:</span></h1>
-            <p class="p-role">CSS selector:</p>
-            <p>.figure-cap</p>
-            <p class="p-role">Sample code:</p>
-            <code>&lt;figcaption class="caption-pic"&gt; figure1. First logo. &lt;/figcaptio&gt;</code>
-
-            <p class="p-role">Rendered element:</p>
-            <figcaption class="caption-pic">figure1. First logo.</figcaption>
-            </h1>
-          </div>
-        </div>
-
-         </section>
-
-      <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-      <!-- COMBINED ELEMENTS SECTION // -->
-      <section class="combined_elements scroll-section" id="combined_elements" data-section-name="combined_elements">
-        <div class="scroll-section-content">
-
-          <div class="row">
-           <div class="col-md-12  col-xs-12">
-          <h1 class="nametitle"> COMBINED ELEMENTS SECTION <h1>
-          </div>
-
-          <div class="col-md-12  col-xs-12">
-          <h1 class="nametitle"> <span class="title-span">Main Navigation:</span></h1>
-
-
-          <p class="p-role">Sample code:</p>
-             <a href="homepage.html">
-             <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">
-             </a>
-             <nav id="single-nav" class="single-nav menu"role="navigation">
-                <ul>
-                   <li><a href="homepage.html">Home</a></li>
-                   <li><a href="animation.html">Video Production</a></li>
-                  <li><a href="logodesign.html">Graphic Design</a></li>
-                </ul>
-             </nav>
-
-     </div>
-   </div>
-
-      </section>
-
-
-
-      <section class="flex-container scroll-section" id="combined_elements" data-section-name="flex-container">
-        <div class="scroll-section-content">
-
-          <div class="row">
-           <div class="col-md-12  col-xs-12">
-          <h1 class="nametitle"> Colours <h1>
-
-         <ul class="flex-container">
-            <!-- <li class="flex-item1"></li> -->
-            <li class="flex-item2"></li>
-            <li class="flex-item3"></li>
-            <li class="flex-item4"></li>
-            <li class="flex-item5"></li>
-         </ul>
-      </section>
-
-
-
-
-
-      <section>
-        <section class="projectlisting scroll-section" id="combined_elements" data-section-name="projectlisting">
-          <div class="scroll-section-content">
-
-            <div class="row">
-             <div class="col-md-12  col-xs-12">
-            <h1 class="nametitle"> Project Listing <h1>
-
-              <h1 class="nametitle"> <span class="title-span">Only one picture with texts: </span></h1>
-            <div class="row">
-              <p class="p-role">CSS selector:</p>
-            .sketch3
-              <p>.figure-cap</p>
-              <p class="p-role">Sample code:</p>
-              <code>&lt;figcaption class="caption-pic"&gt; figure1.  A moodboard for the animation &lt;/figcaption&gt;</code>
-
-               <div class="col-md-6 col-md-offset-1 col-xs-12">
-                 <p class="p-role">Rendered element:</p>
-
-                 <h2 class="subnametitle">Process / Before Editing <span> Moodboard </span>
-                 </h2>
-                 <p>
-                   The mood board was created for setting the tone and style of the film. From figure 1. the main colour scheme will be cold and mainly focus on blue colour.  The style will be organic hand-drawing and watercolor.  The reason why I chose to show my movie in this way, because blue is the colour of the ocean, and the watercolour effect will add more dreamlike feeling to the imagination world.</p>
-
-               </div>
-               <div class="col-md-4 col-xs-12">
-                 <figure>
-                    <img class="sketch3" src="img/moodboard.png" alt="a gallery of images that has blue colour tone">
-                    <figcaption class="caption-pic">figure1. A moodboard for the animation.</figcaption>
-                 </figure>
-               </div>
-
-            </div>
-         </div>
-
-
-
-         <h1 class="nametitle"> <span class="title-span">More than One pictures:</span></h1>
-       <div class="row">
-
-          <div class="col-md-12 col-md-offset-1 col-xs-12">
-            <p class="p-role">Rendered element:</p>
-            <div class="row">
-               <div class="col-md-10 col-xs-12">
-
-                <p>Creating storyboard is one of the most important steps in movie production.  In figure 2., the three pictures of the storyboard show the camera angles, perspective, and also helps me visualize the ideas and plan out the shots and scenes, as well as the time control.  Also, if there were changes needed to be made, I could always fix it before editing the animation.</p>
-               </div>
-               <div class=" col-md-3 col-sm-6 col-xs-12">
-                <img class="sketch3" src="img/storyb-1.jpg" alt="sketches of an animation's storyboard">
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                <img class="sketch3" src="img/storyb-2.png" alt="sketches of an animation's storyboard">
-               </div>
-               <div class="col-md-3 col-sm-6 col-xs-12">
-                 <figure>
-                  <img class="sketch3" src="img/storyb-3.jpg" alt="sketches of an animation's storyboard">
-                  <figcaption class="caption-pic">figure2.  Three pictures of storyboard.</figcaption>
-                 </figure>
-
-               </div>
-            </div>
-       </div>
-       </div>
-
-
-      </section>
-
-
-
-
-
-      <!-- footer -->
-      <footer>
-         <nav class="single-nav footer-style">
-         <ul>
-            <li><a href="styleguide.html">Style Guide</a></li>
-            <li><a href="citations.html">Citations</a></li>
-         </ul>
-      </footer>
-      <script src="javascript/hamburger.js"> </script>
-      <script src="javascript/section-scroll.js" ></script>
-   </body>
-</html>
+<!DOCTYPE html><html>   <head>      <meta charset="utf-8">      <title>Style Guide</title>      <link rel="stylesheet" href="css/font.css">      <link href="css/main.css" rel="stylesheet">      <link rel="stylesheet" href="css/nav-base.css">      <link rel="stylesheet" href="css/nav-scroll-section.css">      <link rel="stylesheet" href="css/homepage.css">      <!-- <link rel="stylesheet" href="css/animatedcloud.css"> -->      <link rel="stylesheet" href="css/styleguide.css">      <script src="javascript/jquery-3.2.1.min.js"> </script>      <script src="javascript/jquery.scrollify.min.js" ></script>      <!-- Latest compiled and minified CSS -->      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">      <!-- Optional theme -->      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">      <!-- Latest compiled and minified JavaScript -->      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>      <meta name="viewport" content="width=device-width,initial-scale=1">   </head>   <body>      <header>         <a href="homepage.html">         <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">         </a>         <nav id="single-nav" class="single-nav menu"role="navigation">            <ul>               <li><a href="homepage.html">Home</a></li>               <li><a href="animation.html">Video Production</a></li>               <li><a href="logodesign.html">Graphic Design</a></li>            </ul>         </nav>         <span class="glyphicon glyphicon-menu-hamburger mobile-nav-trigger" aria-hidden="true">      </header>      <div class="mobile-nav">         <span class="glyphicon glyphicon-remove mobile-nav-trigger" aria-hidden="true"></span>         <!-- <a href="homepage.html">            <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">            </a> -->         <nav class="menu" role="navigation">            <ul class="hamburger-style">               <li><a href="homepage.html">Home</a></li>               <li><a href="animation.html">Video Production</a></li>               <li><a href="logodesign.html">Graphic Design</a></li>            </ul>         </nav>      </div>      <div class="scroll-section-nav">         <div class="nav-group" href="#landing" onclick="$.scrollify.move('#landing');">            <svg>               <circle class="landing active"/>            </svg>            <span class="description">            Top            </span>         </div>         <div class="nav-group" href="#video-producer" onclick="$.scrollify.move('#video-producer');">            <svg>               <circle class="video-producer" />            </svg>            <span class="description">            Video Production            </span>         </div>         <div class="nav-group" href="#graphic-designer" onclick="$.scrollify.move('#graphic-designer');">            <svg>               <circle class="graphic-designer" />            </svg>            <span class="description">            Graphic designer            </span>         </div>      </div>      <section class="interactive_elements scroll-section" id="interactive_elements" data-section-name="interactive_elements">         <div class="scroll-section-content">         <!-- Default Button styling section -->         <div class="row">            <div class="col-md-12  col-xs-12">               <h1 class="nametitle">  INTERACTIVE ELEMENTS SECTION</h1>            </div>            <div class="col-md-6  col-xs-12">               <h1 class="nametitle"> <span class="title-span">Text Button</span></h1>               <p class="p-role">CSS selector:</p>               <p class="p-text">.menu li a </p>               <p class="p-role">Sample code:</p>               <code>&lt;li&gt; href="#"&gt;Graphic Design>&lt;/a&gt;/li&gt;</code>               <p class="p-role">Rendered element:</p>               <a class="button" href="#">Graphic Design </a>            </div>            <div class="col-md-6  col-xs-12">               <h1 class="nametitle"> <span class="title-span">Button</span></h1>               <p class="p-role">CSS selector:</p>               <p class="p-text">.button2</p>               <p class="p-role">Sample code:</p>               <code> &lt;a href="#" class="button2 .button2-accent"&gt;See the Project&lt;/a&gt;</code>               <p class="p-role">Rendered element:</p>               <a href="#" class="button2 .button2-accent">See the Project</a>               </nav>            </div>         </div>      </section>      <!-- // INTERACTIVE ELEMENTS SECTION -->      <!-- TEXT ELEMENTS SECTION // -->      <section class="text_elements scroll-section" id="text_elements" data-section-name="text_elements">         <div class="scroll-section-content">         <div class="row">            <div class="col-md-12  col-xs-12">               <h1 class="nametitle">               TEXT ELEMENTS SECTION               <h1>            </div>            <div class="col-md-6  col-xs-12">            <h1 class="nametitle"> <span class="title-span">Headings:</span></h1>            <p class="p-role">CSS selector:</p>            <p>.nametitle</p>            <p>.subnametitle</p>            <p class="p-role">Sample code:</p>            <code>&lt;h1 class="nametitle"&gt; Title &lt;/h1&gt;</code>            <code> &lt;h2 class="subnametitle"&gt; SubTitle &lt;/h2&gt;</code>            <p class="p-role">Rendered element:</p>            <h1 class="nametitle"> Title</h1>            <h2 class="subnametitle">subtitle  </h2>            </div>            <div class="col-md-6  col-xs-12">            <h1 class="nametitle"> <span class="title-span">Paragraph:</span></h1>            <p class="p-role">CSS selector:</p>            <p>.p-text</p>            <p class="p-role">Sample code:</p>            <code>&lt;h1 class="p-text"&gt; This is a paragraph &lt;/p&gt;</code>            <p class="p-role">Rendered element:</p>            <p class="p-text">I am passionate and confident on working in animation, video production, and  UI/UX design industries.            As a fourth-year design student, I have mastered Adobe Illustrator, Photoshop, AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.            I am passionate and confident on working in animation, video production, and  UI/UX design industries.            AfterEffects, and Maya. From a very young age, I have been passionate about sketching and have adapted that love into the digital form. I believe that both drawing skills and digital design skills are essential for designers to create high-quality artwork in the contemporary era.            </p>            </div>            <div class="col-md-6  col-xs-12">            <h1 class="nametitle"> <span class="title-span">caption:</span></h1>            <p class="p-role">CSS selector:</p>            <p>.figure-cap</p>            <p class="p-role">Sample code:</p>            <code>&lt;figcaption class="caption-pic"&gt; figure1. First logo. &lt;/figcaptio&gt;</code>            <p class="p-role">Rendered element:</p>            <figcaption class="caption-pic">figure1. First logo.</figcaption>            </h1>            </div>         </div>      </section>      <!-- // TEXT ELEMENTS SECTION -->      <!-- COMBINED ELEMENTS SECTION // -->      <!--<section class="combined_elements scroll-section" id="combined_elements" data-section-name="combined_elements">         <div class="scroll-section-content">         <div class="row">            <div class="col-md-12  col-xs-12">               <h1 class="nametitle">               COMBINED ELEMENTS SECTION                <h1>            </div>            <div class="col-md-12  col-xs-12">               <h1 class="nametitle"> <span class="title-span">Main Navigation:</span></h1>               <p class="p-role">Sample code:</p>               <a href="homepage.html">               <img src="img/site-logo.png" alt="CRISTINE ZHONG" class="site-logo">               </a>               <nav id="single-nav" class="single-nav menu"role="navigation">                  <ul>                     <li><a href="homepage.html">Home</a></li>                     <li><a href="animation.html">Video Production</a></li>                     <li><a href="logodesign.html">Graphic Design</a></li>                  </ul>               </nav>            </div>         </div>      </section>-->      <section class="flex-container scroll-section" id="combined_elements" data-section-name="flex-container">         <div class="scroll-section-content">         <div class="row">         <div class="col-md-12  col-xs-12">         <h1 class="nametitle">         Colours          <h1>         <ul class="flex-container">            <!-- <li class="flex-item1"></li> -->            <li class="flex-item2"></li>            <li class="flex-item3"></li>            <li class="flex-item4"></li>            <li class="flex-item5"></li>         </ul>      </section>      <section>      <section class="projectlisting scroll-section" id="combined_elements" data-section-name="projectlisting">         <div class="scroll-section-content">         <div class="row">         <div class="col-md-12  col-xs-12">            <h1 class="nametitle">            Project Listing             <h1>            <h1 class="nametitle"> <span class="title-span">Only one picture with texts: </span></h1>            <div class="row">               <p class="p-role">CSS selector:</p>               .sketch3               <p>.figure-cap</p>               <p class="p-role">Sample code:</p>               <code>&lt;figcaption class="caption-pic"&gt; figure1.  A moodboard for the animation &lt;/figcaption&gt;</code>               <div class="col-md-6 col-md-offset-1 col-xs-12">                  <p class="p-role">Rendered element:</p>                  <h2 class="subnametitle">Process / Before Editing <span> Moodboard </span>                  </h2>                  <p>                     The mood board was created for setting the tone and style of the film. From figure 1. the main colour scheme will be cold and mainly focus on blue colour.  The style will be organic hand-drawing and watercolor.  The reason why I chose to show my movie in this way, because blue is the colour of the ocean, and the watercolour effect will add more dreamlike feeling to the imagination world.                  </p>               </div>               <div class="col-md-4 col-xs-12">                  <figure>                     <img class="sketch3" src="img/moodboard.png" alt="a gallery of images that has blue colour tone">                     <figcaption class="caption-pic">figure1. A moodboard for the animation.</figcaption>                  </figure>               </div>            </div>         </div>         <h1 class="nametitle"> <span class="title-span">More than One pictures:</span></h1>         <div class="row">            <div class="col-md-12 col-md-offset-1 col-xs-12">               <p class="p-role">Rendered element:</p>               <div class="row">                  <div class="col-md-10 col-xs-12">                     <p>Creating storyboard is one of the most important steps in movie production.  In figure 2., the three pictures of the storyboard show the camera angles, perspective, and also helps me visualize the ideas and plan out the shots and scenes, as well as the time control.  Also, if there were changes needed to be made, I could always fix it before editing the animation.</p>                  </div>                  <div class=" col-md-3 col-sm-6 col-xs-12">                     <img class="sketch3" src="img/storyb-1.jpg" alt="sketches of an animation's storyboard">                  </div>                  <div class="col-md-3 col-sm-6 col-xs-12">                     <img class="sketch3" src="img/storyb-2.png" alt="sketches of an animation's storyboard">                  </div>                  <div class="col-md-3 col-sm-6 col-xs-12">                     <figure>                        <img class="sketch3" src="img/storyb-3.jpg" alt="sketches of an animation's storyboard">                        <figcaption class="caption-pic">figure2.  Three pictures of storyboard.</figcaption>                     </figure>                  </div>               </div>            </div>         </div>      </section>      <!-- footer -->      <footer>         <nav class="single-nav footer-style">         <ul>            <li><a href="styleguide.html">Style Guide</a></li>            <li><a href="citations.html">Citations</a></li>            <li><a href="https://github.com/zjzhong118/project03" target="_black">Github</a></li>         </ul>      </footer>      <script src="javascript/hamburger.js"> </script>      <script src="javascript/section-scroll.js" ></script>   </body></html>

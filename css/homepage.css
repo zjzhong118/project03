@@ -1,195 +1,1 @@
-/*section///////////////*/
-.scroll-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.scroll-section h1 {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-
-/*landingimg//////////////*/
-
-.nametitle {
-  font-family: "basictitlefont", sans-serif;
-  color: #5d9fcf;
-  font-size: 50px;
-}
-
-
-.nametitle span {
-
-	display: block;
-	font-size: 35px;
-  color: white;
-  margin-top: 1rem;
-  font-style: oblique;
-  opacity: 0.5;
-}
-
-
-
-
-.landing{
-  height: 50rem;
-  width: 100%;
-  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/titleimage%20copy.jpg");
-  background-size: cover;
-  background-position: left;
-  background-attachment: fixed;
-}
-
-
-  @media (min-width: 500px) {
-.landing-img{
-		height: 100vh;
-		padding-top: 5rem;
-	}
-
-
-.nametitle{
-  font-size: 45px;
-
-}
-}
-
-
-  /*button///////////*/
-
-.button2{
-  display: inline-block;
-  font-size: .9rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: white;
-  opacity: 0.6;
-  border-width: 2px;
-  border-radius: 15px;
-  border-style: solid;
-  padding: .5em 1.75em;
-  color: #96c4e7;
-}
-
-  @media (min-width: 500px)  {
-
-.button2 {
-  	display: inline-block;
-  	font-size: 1.15rem;
-
-  }
-
-  .button2:hover{
-  		color: #6EA4CA;
-  	transition: color 0.25s linear;
-
-  }
-}
-
-.button2-accent{
-  	color: #00ff6c;
-  	border-color: #00ff6c;
-  }
-
-.button2-accent:hover,
-.button2-accent:focus {
-  	background: #00ff6c;
-  	color: #232323;
-  }
-
-
-
-
-/*Video designer*/
-.video-producer .background-layer {
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.video-producer .background-layer .embed-responsive {
-  width: 150%;
-  height: 150%;
-  top: -25%;
-  left: -25%;
-}
-
-.video-producer .background-layer .video-cover {
-  min-device-width: 100%;
-  min-height: 100%;
-  display: none;
-}
-
-@media (orientation: portrait) {
-  .video-producer .background-layer .embed-responsive {
-    display: none;
-  }
-
-  .video-producer .background-layer .video-cover {
-    display: block;
-  }
-}
-
-
-
-  /*///////////porject///////////*/
-
-
-  .graphic-designer{
-    /*height: 45rem;
-    width: 100%;*/
-    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-
-    }
-
-
-  .p-text-seemore{
-    font-family: "HindSiliguri-Light", sans-serif;
-      max-device-width: 850px;
-      margin: 0 auto;
-      padding-bottom: 0rem;
-      color: gray;
-      opacity: 0.2;
-
-  }
-
-
-
-
-.item{
-  max-device-width: 20rem;
-}
-
-
-/*///////////about///////////*/
-
-
-#about{
-  height: 45rem;
-  width: 100%;
-  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-}
-#about h1{
-      font-family: "basictitlefont", sans-serif;
-      color: black;
-      font-size: 30px;
-      text-align: center;
-      margin-top: 8rem;
-      padding-bottom: 2rem;
-
-    }
-
-    #about p{
-    text-align: left;
-    }
-
-
-
-    /*footer//////////////*/
+/*section///////////////*/.scroll-section {  display: flex;  flex-direction: column;  justify-content: center;  align-items: center;}.scroll-section h1 {  margin-left: 0;  margin-right: 0;}/*landingimg//////////////*/.nametitle {  font-family: "basictitlefont", sans-serif;  color: #5d9fcf;  font-size: 50px;}.nametitle span {	display: block;	font-size: 35px;  color: white;  margin-top: 1rem;  font-style: oblique;  opacity: 0.5;}.landing{  height: 50rem;  width: 100%;  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/titleimage%20copy.jpg");  background-size: cover;  background-position: left;  background-attachment: fixed;}  @media (min-width: 500px) {.landing-img{		height: 100vh;		padding-top: 5rem;	}.nametitle{  font-size: 45px;}}  /*button///////////*/.button2{  display: inline-block;  font-size: .9rem;  text-decoration: none;  text-transform: uppercase;  background-color: white;  opacity: 0.6;  border-width: 2px;  border-radius: 15px;  border-style: solid;  padding: .5em 1.75em;  color: #96c4e7;}  @media (min-width: 500px)  {.button2 {  	display: inline-block;  	font-size: 1.15rem;  }  .button2:hover{  		color: #6EA4CA;  	transition: color 0.25s linear;  }}.button2-accent{  	color: #00ff6c;  	border-color: #00ff6c;  }.button2-accent:hover,.button2-accent:focus {  	background: #00ff6c;  	color: #232323;  }/*Video designer*/.video-producer .background-layer {    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");    background-size: cover;    background-attachment: fixed;}.video-producer .background-layer .embed-responsive {  width: 150%;  height: 150%;  top: -25%;  left: -25%;}.video-producer .background-layer .video-cover {  min-device-width: 100%;  min-height: 100%;  display: none;}@media (orientation: portrait) {  .video-producer .background-layer .embed-responsive {    display: none;  }  .video-producer .background-layer .video-cover {    display: block;  }}  /*///////////porject///////////*/  .graphic-designer{    /*height: 45rem;    width: 100%;*/    background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");    background-size: cover;    background-attachment: fixed;    }  .p-text-seemore{    font-family: "HindSiliguri-Light", sans-serif;      max-device-width: 850px;      margin: 0 auto;      padding-bottom: 0rem;      color: gray;      opacity: 0.2;  }.item{  max-device-width: 20rem;}/*///////////about///////////*/#about{  /*height: 45rem;*/  width: 100%;  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/cloud3.jpg");  background-size: cover;  background-attachment: fixed;}#about h1{      font-family: "basictitlefont", sans-serif;      color: black;      font-size: 30px;      text-align: center;      margin-top: 8rem;      padding-bottom: 2rem;    }    #about p{    text-align: left;    }    /*footer//////////////*/

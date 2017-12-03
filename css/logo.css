@@ -1,168 +1,1 @@
-/*section//////*/
-
-.citation-bg{
-  background: #a7cff0;
-}
-.umi-bg{
-  height: 80rem;
-  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
-}
-
-.first-logo{
-  height: 171rem;
-  width: 100%;
-  background:#a7cff0;
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
-}
-
-
-.postpro-container{
-  height: 171rem;
-  width: 100%;
-  background:#9eccf1;
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
-
-}
-
-
-.final-logo3{
-  /*height: 10rem;*/
-  width: 100%;
-  background:#9ac7e8;
-  background-size: cover;
-  display: table;
-  background-attachment: fixed;
-
-}
-/*font*/
-
-
-
-.umi-bg p{
-  font-family: "HindSiliguri-Light",;
-    max-device-width: 850px;
-    margin: 0 auto;
-    padding-bottom: 3rem;
-    margin-top: 5rem;
-}
-
-
-
-.logo-span{
-  display: block;
-  font-size: .7em;
-    color: white;
-    margin-top: 1rem;
-    font-style: oblique;
-    opacity: 0.7;
-}
-
-
-
-.caption-pic{
-  color: white;
-  font-size: 12px;
-  font-family: sans-serif;
-  text-align: right;
-  opacity: .5;
-}
-
-
-
-.postpro-container p{
-  font-family: "HindSiliguri-Light", sans-serif;
-    max-device-width: 850px;
-    margin: 0 auto;
-    padding:1rem;
-
-}
-
-
-
-
-/*landing-styleing*/
-
-.sec-bg-img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-
-}
-
-.introduction-umi{
-  max-device-width: 50em;
-  /*margin: 0 auto;*/
-}
-
-
-.umi-logo{
-  	/* height: 27em;
-    margin: 5em; */
-    /*max-device-width: 80%;*/
-    display: block;
-    max-height: 27em;
-    /*margin-left: 5rem;*/
-    /*margin-right: 0;*/
-  }
-  @media (max-width: 500px ){
-
-    .umi-logo{
-
-        display: block;
-        max-height: 17em;
-      
-      }
-  }
-
-  .umi-text-logo{
-    /* width: 20em; */
-    /* margin: 5em; */
-    /*max-device-width: 100%;*/
-    display: block;
-    max-height: 25em;
-    margin: auto 0;
-
-    /*padding-top: 10em;*/
-  }
-
-
-
-
-  .home-section {
-  width: 100%;
-  }
-
-
-
-  .introduction-umi{
-
-    margin: 0 auto;
-    padding: 2rem;
-  }
-    .p-text{
-      font-family: "HindSiliguri-Light", sans-serif;
-        /*max-device-width: 40%;*/
-        margin:0 auto;
-        padding-bottom: 3rem;
-        text-align: left;
-    }
-
-
-
-    /* Setting up our grid */
-
-
-  body .container-fluid{
-  padding: 0;
-  }
-
-  body .row{
-    margin: 0;
-  }
+/*section//////*/.citation-bg{  background: #a7cff0;}.umi-bg{  /*height: 80rem;*/  background-image:url("http://www.sfu.ca/~zjzhong/iat339/po03/img/graphics.jpg");  background-size: cover;  display: table;  background-attachment: fixed;}.first-logo{  width: 100%;  background:#a7cff0;  background-size: cover;  display: table;  background-attachment: fixed;}.postpro-container{  width: 100%;  background:#9eccf1;  background-size: cover;  display: table;  background-attachment: fixed;}.final-logo3{  /*height: 10rem;*/  width: 100%;  background:#9ac7e8;  background-size: cover;  display: table;  background-attachment: fixed;}/*font*/.umi-bg p{  font-family: "HindSiliguri-Light";    /*max-device-width: 850px;*/    margin: 0 auto;    padding-bottom: 3rem;    margin-top: 5rem;}.logo-span{  display: block;  font-size: .7em;    color: white;    margin-top: 1rem;    font-style: oblique;    opacity: 0.7;}.caption-pic{  color: white;  font-size: 12px;  font-family: sans-serif;  text-align: right;  opacity: .5;}.postpro-container p{  /*-family: "HindSiliguri-Light", sans-serif;    max-device-width: 850px;*/    margin: 0 auto;    padding:1rem;}/*landing-styleing*/.sec-bg-img {    display: flex;    flex-direction: row;    flex-wrap: wrap-reverse;}.introduction-umi{  max-device-width: 50em;  /*margin: 0 auto;*/}.umi-logo{  	/* height: 27em;    margin: 5em; */    /*max-device-width: 80%;*/    display: block;    max-height: 27em;    /*margin-left: 5rem;*/    /*margin-right: 0;*/  }  @media (max-width: 500px ){    .umi-logo{        display: block;        max-height: 17em;        margin-left: auto;        margin-right: auto;      }  }  .umi-text-logo{    /* width: 20em; */    /* margin: 5em; */    /*max-device-width: 100%;*/    display: block;    max-height: 25em;    margin: auto 0;    /*padding-top: 10em;*/  }  .home-section {  width: 100%;  }  .introduction-umi{    margin: 0 auto;    padding: 2rem;  }    .p-text{      font-family: "HindSiliguri-Light", sans-serif;        /*max-device-width: 40%;*/        margin:0 auto;        padding-bottom: 3rem;        text-align: left;    }    /* Setting up our grid */  body .container-fluid{  padding: 0;  }  body .row{    margin: 0;  }
